@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
-
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,11 +11,11 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className= "p-4">
+    <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white">Logo</div>
-        <Button className="block md:hidden text-white" onClick={toggleMenu}>
-          {/* Hamburger Icon */}
+        <Button className="block laptop:hidden text-white" onClick={toggleMenu}>
+          {/* Setting the Hamburger Icon */}
           {isOpen ? (
             <HamburgerIcon></HamburgerIcon>
           ) : (
@@ -25,7 +24,8 @@ const Navbar: React.FC = () => {
         </Button>
         <div
           className={`${
-            isOpen ? "block" : "hidden"} md:block md:flex md:items-center`}
+            isOpen ? "block" : "hidden"
+          } laptop:block laptop:flex laptop:items-center`}
         >
           <Button className="text-white mr-4">Home</Button>
           <Button className="text-white mr-4">About</Button>
