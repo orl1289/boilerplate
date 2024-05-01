@@ -4,6 +4,9 @@ import { Button } from './components/ui/button'
 import { Card } from './components/ui/card'
 import { Menubar } from './components/ui/menubar'
 
+import { ChakraProvider } from "@chakra-ui/react";
+import Nav from "./components/Nav";
+
 function App() {
   
 
@@ -15,6 +18,7 @@ function App() {
       <Button>This is my button</Button>
       <Card>This is my card</Card>
       <Menubar></Menubar>
+      <Nav></Nav>
 
     </>
   )
