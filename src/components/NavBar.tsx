@@ -27,9 +27,9 @@ const Navbar: React.FC = () => {
             isOpen ? "block" : "hidden"
           } laptop:block laptop:flex laptop:items-center`}
         >
-          <Button className="text-white mr-4">Home</Button>
-          <Button className="text-white mr-4">About</Button>
-          <Button className="text-white">Contact</Button>
+          <Button className="text-white text-base mr-6">Home</Button>
+          <Button className="text-white text-base mr-6">About</Button>
+          <Button className="text-white text-base">Contact</Button>
         </div>
       </div>
     </nav>
