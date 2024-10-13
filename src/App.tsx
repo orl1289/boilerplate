@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <div className="flex items-center justify-center p-6">
+      <div className=" laptop: w-auto flex items-center justify-center p-6">
         <Carousel></Carousel>
       </div>
 

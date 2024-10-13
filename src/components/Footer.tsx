@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-black text-white py-4 bottom-0 w-full fixed">
       <div className="container mx-auto flex justify-between items-center">
-        <div>Logo</div>
+        <div>SparkING</div>
         <nav className="flex space-x-4">
           <a href="#" className="hover:text-gray-400">
             Home
