@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,9 +28,15 @@ const Navbar: React.FC = () => {
             isOpen ? "block" : "hidden"
           } laptop:block laptop:flex laptop:items-center`}
         >
-          <Button className="text-white text-base mr-6">Home</Button>
-          <Button className="text-white text-base mr-6">About</Button>
-          <Button className="text-white text-base">Contact</Button>
+          <Link to="/" className="text-white hover:text-orange-500">
+            <Button className="text-white text-base mr-6">Home</Button>
+          </Link>
+          <Link to="/about" className="text-white hover:text-orange-500">
+            <Button className="text-white text-base mr-6">About</Button>
+          </Link>
+          <Link to="/contact" className="text-white hover:text-orange-500">
+            <Button className="text-white text-base">Contact</Button>
+          </Link>
         </div>
       </div>
     </nav>

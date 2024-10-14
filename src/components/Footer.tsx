@@ -7,13 +7,13 @@ const Footer: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div>SparkING</div>
         <nav className="flex space-x-4">
-          <a href="#" className="hover:text-gray-400">
+          <a href="/" className="hover:text-gray-400">
             Home
           </a>
-          <a href="#" className="hover:text-gray-400">
+          <a href="/about" className="hover:text-gray-400">
             About
           </a>
-          <a href="#" className="hover:text-gray-400">
+          <a href="/contact" className="hover:text-gray-400">
             Contact
           </a>
         </nav>
