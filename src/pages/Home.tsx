@@ -11,7 +11,7 @@ function Home() {
         <Carousel></Carousel>
       </div>
 
-      <div>This is my HOME</div>
+      <div>This is my new Project</div>
       <Footer></Footer>
     </>
   );

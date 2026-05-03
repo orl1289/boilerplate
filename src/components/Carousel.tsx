@@ -16,8 +16,8 @@ import {
 
 export function CarouselPlugin() {
   const plugin = React.useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: false})
-  );          
+    Autoplay({ delay: 3000, stopOnInteraction: false })
+  );
 
   // *To replace the content inside the CarouselItem with an image element
 
@@ -40,7 +40,7 @@ export function CarouselPlugin() {
                     src={imageUrl}
                     alt={`Image ${index + 1}`}
                     className="rounded-lg"
-                    style={{ width: "100%", height: "500px" }} // Standard height and width
+                    style={{ width: "100%", height: "570px" }} // Standard height and width
                   />
                 </CardContent>
               </Card>

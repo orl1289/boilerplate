@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white">Logo</div>
+        <div className="text-black">SPK Consulting</div>
         <Button className="block laptop:hidden text-white" onClick={toggleMenu}>
           {/* Setting the Hamburger Icon */}
           {isOpen ? (
