@@ -4,6 +4,7 @@ import image1 from "@/assets/images/pexels-akilmazumder-1072824.jpg";
 import image2 from "@/assets/images/pexels-gustavo-fring-4254158.jpg";
 import image3 from "@/assets/images/pexels-kelly-1179532-6572421.jpg";
 import image4 from "@/assets/images/pexels-pixabay-414837.jpg";
+import image5 from "@/assets/images/pexels-tima-miroshnichenko-9574541.jpg";
 
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -21,7 +22,7 @@ export function CarouselPlugin() {
 
   // *To replace the content inside the CarouselItem with an image element
 
-  const images = [image1, image2, image3, image4];
+  const images = [image1, image2, image3, image4, image5];
 
   return (
     <Carousel
