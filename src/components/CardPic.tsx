@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import image1 from "@/assets/images/pexels-yaroslav-shuraev-8692129.jpg";       
+import image1 from "@/assets/images/Proffesional_photo-July 2026.png";       
 
 export function CardPic() {
 return (
@@ -12,7 +12,7 @@ return (
                   <img
                     src={image1}
                     className="rounded-lg"
-                    style={{ width: "100%", height: "170px" }} // Standard height and width
+                    style={{ width: "100%", height: "280px" }} // Standard height and width
                   />
                   
                 </CardContent>
