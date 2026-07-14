@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
             <Button className="text-white text-base mr-6">Home</Button>
           </Link>
           <Link to="/about" className="text-white hover:text-orange-500">
-            <Button className="text-white text-base mr-6">About</Button>
+            <Button className="text-white text-base mr-6">Services</Button>
           </Link>
           <Link to="/contact" className="text-white hover:text-orange-500">
             <Button className="text-white text-base">Contact</Button>

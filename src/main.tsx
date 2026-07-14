@@ -19,7 +19,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    errorElement: <NotFoundPage />,
   },
 
   {
@@ -35,7 +34,13 @@ const router = createBrowserRouter([
   {
     path: "/privacynote",
     element: <PrivacyNote />,
-  }
+  },
+
+  {
+    path: "/notfoundpage",
+    element: <NotFoundPage />,
+  },
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
