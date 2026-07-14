@@ -1,9 +1,9 @@
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
-import image1 from "@/assets/images/pexels-akilmazumder-1072824.jpg";
-import image2 from "@/assets/images/pexels-gustavo-fring-4254158.jpg";
-import image3 from "@/assets/images/pexels-kelly-1179532-6572421.jpg";
-import image4 from "@/assets/images/pexels-pixabay-414837.jpg";
+import image1 from "@/assets/images/ksenia-yakovleva-YT6COuf1gY0-unsplash.jpg";
+import image2 from "@/assets/images/derek-finch-zkrPU_1AwdU-unsplash.jpg";
+import image3 from "@/assets/images/pexels-ivan-s-9629684.jpg";
+import image4 from "@/assets/images/pexels-yaroslav-shuraev-8692129.jpg";
 import image5 from "@/assets/images/pexels-tima-miroshnichenko-9574541.jpg";
 
 import { Card, CardContent } from "@/components/ui/card";

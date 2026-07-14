@@ -8,7 +8,7 @@ function Contact() {
       <NavBar></NavBar>
       <div className=" laptop: w-auto flex items-center justify-center p-6"></div>
 
-      <div>This is my Contact Page</div>
+      <div>Please contact me at</div>
       <Footer></Footer>
     </>
   );

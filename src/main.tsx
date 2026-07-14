@@ -10,6 +10,7 @@ import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
 import Contact from "./pages/Contact.tsx";
 import NotFoundPage from "./pages/NotFoundPage.tsx";
+import PrivacyNote from "./pages/PrivacyNote.tsx";
 
 //* Here I created the router, router and special package to configure
 //*routes statically (it's impossible to generate purely dynamic routes on a server)
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />,
   },
+
+  {
+    path: "/privacynote",
+    element: <PrivacyNote />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
