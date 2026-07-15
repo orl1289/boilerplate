@@ -71,6 +71,17 @@ function PrivacyNote() {
               </p>
             </div>
           </div>
+
+          <div className=" laptop: w-auto items-center justify-center p-6">
+            <p>
+              Flowbite Icons is a free and open-source collection of SVG icons
+              that you can use in personal and commercial projects by giving
+              attribution. Free under the MIT License 💙 Authors and credits
+              Designed by Evelyne Krall & Robert Tanislav and interface coded by
+              Zoltán Szőgyényi.
+            </p>
+            https://twitter.com/zoltanszogyenyi
+          </div>
         </section>
       </body>
       <footer>

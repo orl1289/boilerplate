@@ -14,27 +14,31 @@ function About() {
         <section className="m-auto w-auto p-6">
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
           <div
-            className=" laptop: w-auto flex items-center justify-center p-6"
+            className=" laptop: w-auto items-center justify-center p-6"
             m-2
           >
-            Catalog of Services
+            <h1 className="p-1 m-6 text-2xl tablet:text-3xl laptop:text-4xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">Catalog of Services</h1>
+            <p>
+              {" "}
+              As a Quality professional in the pharmaceutical and medical
+              devices industry, Integrating od ISO 9001 and ISO 13485 to quality
+              management systems (QMS), I lead quality assurance activities
+              across the product/ service lifecycle focusing on customer
+              satisfaction and continual improvement, and emphasizing regulatory
+              compliance and risk management approach.
+            </p>
           </div>
 
           <div className="items-center p-6 m-6">
             <Card>
-              <CardContent className=" h-full border-2 border-teal-600 grid grid-flow-col grid-rows-3 gap-4">
+              <CardContent className=" h-full grid grid-flow-row grid-cols-2 gap-2 rounded-lg">
                 {/* CardContainer #1 */}
                 <div className="p-1 m-6">
                   <Card>
-                    <CardContent className="flex items-center justify-center p-6">
+                    <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
-                        As a Quality professional in the pharmaceutical and
-                        medical devices industry, integrating ISO 9001 and ISO
-                        13485 to quality management systems (QMS), I lead
-                        quality assurance activities across the product/ service
-                        lifecycle focusing on customer satisfaction and
-                        continual improvement, and emphasizing regulatory
-                        compliance and risk management approach.
+                        Integrating ISO 9001 and ISO
+                        13485 to quality management systems (QMS).
                       </div>
                     </CardContent>
                   </Card>
@@ -43,7 +47,7 @@ function About() {
                 {/* CardContainer #2 */}
                 <div className="p-1 m-6">
                   <Card>
-                    <CardContent className="flex items-center justify-center p-6">
+                    <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
                         Demonstrated understanding of QMS requirements, cGMP,
                         ISO 9001, ISO 13485, FDA CFR 21 820, ICH Q8/Q9/Q10
@@ -57,7 +61,7 @@ function About() {
                 {/* CardContainer #3 */}
                 <div className="p-1 m-6">
                   <Card>
-                    <CardContent className="flex items-center justify-center p-6">
+                    <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
                         Experience with eQMS, and strong data driven quality
                         decision making through effective system configuration,
@@ -70,7 +74,7 @@ function About() {
                 {/* CardContainer #4 */}
                 <div className="p-1 m-6">
                   <Card>
-                    <CardContent className="flex items-center justify-center p-6">
+                    <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
                         Management and building of periodic performance reports
                         with metrics and KPI’s for review (Power Bi, Excel
@@ -83,7 +87,7 @@ function About() {
                 {/* CardContainer #5 */}
                 <div className="p-1 m-6">
                   <Card>
-                    <CardContent className="flex items-center justify-center p-6">
+                    <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
                         Quality support and input for Change Controls, CAPAs,
                         and Deviation Investigations.
@@ -95,7 +99,7 @@ function About() {
                 {/* CardContainer #6 */}
                 <div className="p-1 m-6">
                   <Card>
-                    <CardContent className="flex items-center justify-center p-6">
+                    <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
                         Process support in accordance with documented procedures
                         and practices (GDP, ALCOA principles).
@@ -107,7 +111,7 @@ function About() {
                 {/* CardContainer #7 */}
                 <div className="p-1 m-6">
                   <Card>
-                    <CardContent className="flex items-center justify-center p-6">
+                    <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
                         Documentation activities (write, review, and approve)
                         for Standard Operating Procedures (SOPs) in alignment
