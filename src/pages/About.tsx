@@ -6,13 +6,18 @@ import { Card, CardContent } from "@/components/ui/card";
 function About() {
   return (
     <>
-      <NavBar></NavBar>
-      <div className=" laptop: w-auto flex items-center justify-center p-6" m-2>
+     <header>
+        <NavBar/>
+     </header>
+
+  <div className=" laptop: w-auto flex items-center justify-center p-6" m-2>
         ALTRIX Quality Partners
-      </div>
-<div className="items-center p-6 m-12">  
-<Card>
-  <CardContent className=" items-center justify-center p-6">
+  </div>
+
+
+<div className="items-center p-6 m-6">  
+<Card >
+  <CardContent className=" h-full border-2 border-teal-600 grid grid-flow-col grid-rows-3 gap-4">
     {/* CardContainer #1 */}
     <div className="p-1 m-6">
     <Card>
@@ -109,7 +114,9 @@ function About() {
       </CardContent>
 </Card>
  </div> 
-      <Footer></Footer>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   );
 }
