@@ -13,8 +13,12 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-black text-size-xl font-bold">ALTRIX Quality Partners</div>
+      <div className=" mx-auto flex justify-between items-center">
+        <div className="text-black text-size-xl font-bold m-2">
+          <p className=" text-2xl tablet:text-3xl laptop:text-4xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">
+            OMM
+          </p>
+        </div>
         <Button className="block laptop:hidden text-white" onClick={toggleMenu}>
           {/* Setting the Hamburger Icon */}
           {isOpen ? (
