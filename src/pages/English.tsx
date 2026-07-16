@@ -1,4 +1,3 @@
-
 import "../App.css";
 import NavBar from "../components/NavBar.jsx";
 import Footer from "../components/Footer.jsx";
@@ -87,14 +86,20 @@ function English() {
             </h1>
           </div>
 
-          <h2 className="text-[1.3rem] p-4 font-semibold list-item list-inside tablet:text-2xl laptop:text-3xl">
+          <h2 className="text-[1.3rem] p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
             University of Vigo
-            <p className="italic"> Energy and Sustainability Master's Degree</p>
           </h2>
-          <h2 className="text-[1.3rem] p-4 font-semibold list-item list-inside tablet:text-2xl laptop:text-3xl">
+          <p className=" text-2xl tablet:text-3xl tablet:mx-20 italic">
+            {" "}
+            Energy and Sustainability Master's Degree
+          </p>
+          <h2 className="text-[1.3rem] p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
             University of Costa Rica
-            <p className="italic"> License in Chemical Engineering</p>
           </h2>
+          <p className=" text-2xl tablet:text-3xl tablet:mx-20 italic">
+            {" "}
+            License in Chemical Engineering
+          </p>
         </div>
 
         {/* <!--------------------- Experience --------------------------------------------------------------> */}
@@ -580,21 +585,21 @@ function English() {
             </h1>
           </div>
           <div className="text-xl text-center p-1 m-auto tablet:text-2xl tablet:mx-20">
-            <h2 className="p-2 font-semibold list-item list-inside">
+            <p className="p-2 font-semibold list-item list-inside">
               {" "}
               Spanish
               <i className="italic"> (Native)</i>
-            </h2>
-            <h2 className="p-2 font-semibold list-item list-inside">
+            </p>
+            <p className="p-2 font-semibold list-item list-inside">
               {" "}
               English
               <i className="italic"> (Professional)</i>
-            </h2>
-            <h2 className="p-2 font-semibold list-item list-inside">
+            </p>
+            <p className="p-2 font-semibold list-item list-inside">
               {" "}
               French
               <i className="italic"> (Fluent)</i>
-            </h2>
+            </p>
           </div>
         </div>
 
@@ -620,39 +625,39 @@ function English() {
             </h1>
           </div>
           <div className="text-xl text-center p-1 m-auto tablet:text-2xl tablet:mx-20">
-            <h2 className="font-semibold list-item list-inside p-2">
+            <p className="font-semibold list-item list-inside p-2">
               {" "}
               Quality Process Analyst Certification (CQPA)
               <p className="italic"> ASQ (Ongoing)</p>
-            </h2>
+            </p>
           </div>
           <div className="text-xl text-center p-1 m-auto tablet:text-2xl tablet:mx-20">
-            <h2 className="font-semibold list-item list-inside p-2">
+            <p className="font-semibold list-item list-inside p-2">
               {" "}
               Certified Associate in Project Management (CAPM)
               <p className="italic"> PMI (Ongoing)</p>
-            </h2>
+            </p>
           </div>
           <div className="text-xl text-center p-1 m-auto tablet:text-2xl tablet:mx-20">
-            <h2 className="font-semibold list-item list-inside p-2">
+            <p className="font-semibold list-item list-inside p-2">
               {" "}
               Measuring Sustainable Development
               <p className="italic"> SDG Academy - edX Certificate</p>
-            </h2>
+            </p>
           </div>
           <div className="text-xl text-center p-1 m-auto tablet:text-2xl tablet:mx-20">
-            <h2 className="font-semibold list-item list-inside p-2">
+            <p className="font-semibold list-item list-inside p-2">
               {" "}
               AWS Cloud Quest: Cloud Practitioner
               <p className="italic"> Amazon Web Services - Certificate </p>
-            </h2>
+            </p>
           </div>
           <div className="text-xl text-center p-1 m-auto tablet:text-2xl tablet:mx-20">
-            <h2 className="font-semibold list-item list-inside p-2">
+            <p className="font-semibold list-item list-inside p-2">
               {" "}
               Alianza Francesa de San José
               <p className="italic"> DELF Niveau B1</p>
-            </h2>
+            </p>
           </div>
         </div>
 
@@ -673,7 +678,7 @@ function English() {
             </h1>
           </div>
           <div className="text-xl text-center p-1 m-auto tablet:text-2xl tablet:mx-20">
-            <h2 className="font-semibold list-item list-inside p-2">
+            <p className="font-semibold list-item list-inside p-2">
               XXIV Latin American Congress of Students of Chemical Engineering
               and Related Careers
               <p className="italic">
@@ -681,7 +686,7 @@ function English() {
                 National Technological University (Buenos Aires, Argentina) -
                 2018
               </p>
-            </h2>
+            </p>
           </div>
         </div>
 
@@ -823,86 +828,6 @@ function English() {
             <div>
               National Integrated Energy and Climate Plan (NIECP) for the 2030
               Power Transition
-            </div>
-          </div>
-        </div>
-        {/* <!---------------------Professional interest --------------------------------------------------------------> */}
-
-        <div className="text-primary-600 text-center p-4 m-2">
-          <div className="flex justify-center items-center">
-            <svg
-              className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M7 4a7 7 0 0 1 12 5c0 2.4-1.2 3.9-2.2 5v.1c-1 1.3-1.8 2.2-1.8 3.9 0 .6-.4 1-1 1h-4a1 1 0 0 1-1-1c0-1.6-.8-2.6-1.8-3.9C6.2 12.8 5 11.4 5 9a7 7 0 0 1 2-5Zm2 17c0-.6.4-1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1Zm1.6-13.4A2 2 0 0 1 12 7a1 1 0 1 0 0-2 4 4 0 0 0-4 4 1 1 0 0 0 2 0c0-.5.2-1 .6-1.4Z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <h1 className="text-[1.6rem] font-bold tablet:text-3xl laptop:text-4xl">
-              Areas of professional interest
-            </h1>
-          </div>
-          <div>
-            <div className="text-xl grid tablet:text-2xl tablet:grid-cols-3">
-              <div className="list-item list-inside p-2">
-                Data Optimization: Dedicated to refining data processes for
-                enhanced efficiency and accuracy
-              </div>
-              <div className="list-item list-inside p-2">
-                Sustainable Practices: Committed to driving sustainability
-                initiatives to reduce environmental impact.
-              </div>
-              <div className="list-item list-inside p-2">
-                Collaborative Leadership: Skilled in leading diverse teams to
-                achieve collective goals.
-              </div>
-              <div className="list-item list-inside p-2">
-                Continuous Improvement: Passionate about streamlining processes
-                to maximize productivity.
-              </div>
-              <div className="list-item list-inside p-2">
-                Exceptional Customer Service: Committed to delivering superior
-                service through tailored solutions.
-              </div>
-              <div className="list-item list-inside p-2">
-                Effective Project Management: Proficient in overseeing projects
-                from inception to completion.{" "}
-              </div>
-              <div className="list-item list-inside p-2">
-                Technological Innovation: Enthusiastic about integrating
-                cutting-edge tech for improved operations.
-              </div>
-              <div className="list-item list-inside p-2">
-                Regulatory Adherence: Diligent in ensuring compliance with
-                industry regulations and standards.
-              </div>
-              <div className="list-item list-inside p-2">
-                Corporate Social Responsibility (CSR): Committed to supporting
-                CSR initiatives through effective data management practices,
-                contributing to corporate sustainability and social impact
-                goals.{" "}
-              </div>
-              <div className="list-item list-inside p-2">
-                {" "}
-                Sustainable Supply Chain Management: Interested in applying data
-                management principles to optimize supply chain processes and
-                enhance sustainability throughout the value chain
-              </div>
-              <div className="list-item list-inside p-2">
-                Renewable Energy: Interested in leveraging data management
-                techniques to optimize renewable energy systems and promote
-                sustainable energy solutions.{" "}
-              </div>
-              <div className="list-item list-inside p-2">
-                Carbon Footprint Reduction: Committed to utilizing data-driven
-                approaches to track and reduce carbon emissions, promoting
-                environmental responsibility and sustainability.
-              </div>
             </div>
           </div>
         </div>

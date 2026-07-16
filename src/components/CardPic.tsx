@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import image1 from "@/assets/images/Proffesional_photo-July 2026.png";
+import { Link } from "react-router-dom";
 
 export function CardPic() {
   return (
@@ -52,6 +53,13 @@ export function CardPic() {
             <path d="M8 4a2.6 2.6 0 0 0-2 .9 6.2 6.2 0 0 0-1.8 6 12 12 0 0 0 3.4 5.5 12 12 0 0 0 5.6 3.4 6.2 6.2 0 0 0 6.6-2.7 2.6 2.6 0 0 0-.7-3L18 12.9a2.7 2.7 0 0 0-3.8 0l-.6.6a.8.8 0 0 1-1.1 0l-1.9-1.8a.8.8 0 0 1 0-1.2l.6-.6a2.7 2.7 0 0 0 0-3.8L10 4.9A2.6 2.6 0 0 0 8 4Z" />
           </svg>
           +34 692 53 65 87
+        </div>
+        <div>
+          <Link to="/english" className="text-white hover:text-orange-500">
+            <p className=" text-base mr-1 tablet:text-lg laptop:text-xl">
+              Resume
+            </p>
+          </Link>
         </div>
       </Card>
       <div className="text-center p-4 m-2">
