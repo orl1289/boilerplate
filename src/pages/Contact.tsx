@@ -9,8 +9,8 @@ function Contact() {
       <header>
         <NavBar />
       </header>
-      <body className="h-100%">
-        <section className="m-auto w-auto h-screen p-2">
+      <body>
+        <section className="m-auto w-auto p-6 text-xs tablet:text-xl laptop:text-2xl min-h-lvh">
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
           <div className=" laptop: w-auto flex items-center justify-center p-6">
             <CardPic></CardPic>

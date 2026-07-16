@@ -8,11 +8,11 @@ export function CardPic() {
         <CardContent className="flex items-center justify-center p-6">
           <img
             src={image1}
-            className="rounded-lg"
+            className="rounded-lg object-contain md:object-cover"
             style={{ width: "100%", height: "280px" }} // Standard height and width
           />
         </CardContent>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center m-2 p-2">
           <svg
             className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
             aria-hidden="true"
@@ -28,7 +28,7 @@ export function CardPic() {
           </svg>
           Madrid, Spain - 28004
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center m-2 p-2">
           <svg
             className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
             aria-hidden="true"
@@ -41,7 +41,7 @@ export function CardPic() {
           </svg>
           <a href="mailto:orl1289@gmail.com">orl1289@gmail.com</a>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center m-2 p-2">
           <svg
             className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
             aria-hidden="true"

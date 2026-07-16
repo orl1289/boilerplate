@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           } laptop:block laptop:flex laptop:items-center`}
         >
           <Link to="/" className="text-white hover:text-orange-500">
-            <Button className="text-white text-base mr-6">
+            <Button className="text-white mr-6 tablet:text-base laptop:text-lg desktop:text-xl">
               <div className="m-2">
                 <svg
                   className="w-6 h-6 dark:text-white"
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
             </Button>
           </Link>
           <Link to="/about" className="text-white hover:text-orange-500">
-            <Button className="text-white text-base mr-6">
+            <Button className="text-white text-base mr-6 tablet:text-lg laptop:text-xl">
               <div className="m-2">
                 <svg
                   className="w-6 h-6 text-white dark:text-white"
@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
             </Button>
           </Link>
           <Link to="/contact" className="text-white hover:text-orange-500">
-            <Button className="text-white text-base mr-6">
+            <Button className="text-white text-base mr-6 tablet:text-lg laptop:text-xl">
               <div className="m-2">
                 <svg
                   className="w-6 h-6 text-white dark:text-white"

@@ -2,6 +2,7 @@ import "../App.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import Carousel from "@/components/Carousel";
 
 function About() {
   return (
@@ -11,17 +12,19 @@ function About() {
       </header>
 
       <body>
-        <section className="m-auto w-auto p-6">
+        <section className="m-auto w-auto p-6 text-xs tablet:text-xl laptop:text-2xl min-h-lvh">
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
-          <div
-            className=" laptop: w-auto items-center justify-center p-6"
-            m-2
-          >
-            <h1 className="p-1 m-6 text-2xl tablet:text-3xl laptop:text-4xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">Catalog of Services</h1>
+          <div className=" laptop: w-auto items-center justify-center p-6" m-2>
+            <h1 className="p-1 m-6 text-2xl tablet:text-3xl laptop:text-4xl font-bold text-black">
+              Catalog of Services
+            </h1>
+                      <div className=" laptop: w-auto flex items-center justify-center p-6">
+                        <Carousel></Carousel>
+                      </div>
             <p>
               {" "}
               As a Quality professional in the pharmaceutical and medical
-              devices industry, Integrating od ISO 9001 and ISO 13485 to quality
+              devices industry, harmonizing ISO 9001 and ISO 13485 to quality
               management systems (QMS), I lead quality assurance activities
               across the product/ service lifecycle focusing on customer
               satisfaction and continual improvement, and emphasizing regulatory
@@ -37,8 +40,8 @@ function About() {
                   <Card>
                     <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
-                        Integrating ISO 9001 and ISO
-                        13485 to quality management systems (QMS).
+                        Integrating ISO 9001 and ISO 13485 to quality management
+                        systems (QMS).
                       </div>
                     </CardContent>
                   </Card>

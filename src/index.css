@@ -58,6 +58,18 @@
     url('./assets/fonts/Roboto-Regular.ttf') 
   }
 
+    @font-face{
+    font-family: "Archivo Black";
+    src:local("archivo-black-latin-400-normal"),
+    url('./assets/fonts/archivo-black-latin-400-normal.ttf') 
+  }
+
+    @font-face{
+    font-family: "Anton";
+    src:local("anton-latin-400-normal"),
+    url('./assets/fonts/anton-latin-400-normal.ttf') 
+  }
+
   @layer base {
     * {
       @apply border-border;

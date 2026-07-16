@@ -10,7 +10,7 @@ function PrivacyNote() {
       </header>
 
       <body>
-        <section className="m-auto w-auto p-6">
+        <section className="m-auto w-auto p-6 text-xs tablet:text-xl laptop:text-2xl min-h-lvh">
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
           <div className=" laptop: w-auto flex items-center justify-center p-6">
             <div>
@@ -81,6 +81,13 @@ function PrivacyNote() {
               Zoltán Szőgyényi.
             </p>
             https://twitter.com/zoltanszogyenyi
+          </div>
+          <div>
+            Copyright 2020 The Anton Project Authors
+            (https://github.com/googlefonts/AntonFont.git) This Font Software is
+            licensed under the SIL Open Font License, Version 1.1. This license
+            is copied below, and is also available with a FAQ at:
+            http://scripts.sil.org/OFL
           </div>
         </section>
       </body>
