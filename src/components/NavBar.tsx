@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
     <nav className="p-4">
       <div className=" mx-auto flex justify-between items-center">
         <div className="text-black text-size-xl font-bold m-2">
-          <p className=" text-2xl tablet:text-3xl laptop:text-4xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">
+          <p className="tablet:text-3xl laptop:text-4xl desktop:text-5xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">
             OMM
           </p>
         </div>
@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
           } laptop:block laptop:flex laptop:items-center`}
         >
           <Link to="/" className="text-white hover:text-orange-500">
-            <Button className="text-white mr-6 tablet:text-base laptop:text-lg desktop:text-xl">
+            <Button className="text-white mr-6 tablet:text-base laptop:text-xl desktop:text-2xl">
               <div className="m-2">
                 <svg
                   className="w-6 h-6 dark:text-white"
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
             </Button>
           </Link>
           <Link to="/about" className="text-white hover:text-orange-500">
-            <Button className="text-white text-base mr-6 tablet:text-lg laptop:text-xl">
+            <Button className="text-white text-base mr-6 tablet:text-lg laptop:text-xl desktop:text-2xl">
               <div className="m-2">
                 <svg
                   className="w-6 h-6 text-white dark:text-white"
@@ -81,7 +81,7 @@ const Navbar: React.FC = () => {
             </Button>
           </Link>
           <Link to="/contact" className="text-white hover:text-orange-500">
-            <Button className="text-white text-base mr-6 tablet:text-lg laptop:text-xl">
+            <Button className="text-white text-base mr-6 tablet:text-lg laptop:text-xl desktop:text-2xl">
               <div className="m-2">
                 <svg
                   className="w-6 h-6 text-white dark:text-white"

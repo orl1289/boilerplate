@@ -70,6 +70,14 @@
     url('./assets/fonts/anton-latin-400-normal.ttf') 
   }
 
+
+    @font-face{
+    font-family: "Metropolis";
+    src:local("metropolis-latin-400-normal"),
+    url('./assets/fonts/metropolis-latin-400-normal.ttf') 
+  }
+
+
   @layer base {
     * {
       @apply border-border;

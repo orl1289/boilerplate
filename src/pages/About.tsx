@@ -12,24 +12,26 @@ function About() {
       </header>
 
       <body>
-        <section className="m-auto w-auto p-6 text-xs tablet:text-xl laptop:text-2xl min-h-lvh">
+        <section className="m-auto w-auto p-6 text-xs tablet:text-xl laptop:text-2xl desktop:text-3xl min-h-lvh">
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
           <div className=" laptop: w-auto items-center justify-center p-6" m-2>
-            <h1 className="p-1 m-6 text-2xl tablet:text-3xl laptop:text-4xl font-bold text-black">
+            <h1 className="p-1 m-6">
               Catalog of Services
             </h1>
-                      <div className=" laptop: w-auto flex items-center justify-center p-6">
-                        <Carousel></Carousel>
-                      </div>
-            <p>
-              {" "}
-              As a Quality professional in the pharmaceutical and medical
-              devices industry, harmonizing ISO 9001 and ISO 13485 to quality
-              management systems (QMS), I lead quality assurance activities
-              across the product/ service lifecycle focusing on customer
-              satisfaction and continual improvement, and emphasizing regulatory
-              compliance and risk management approach.
-            </p>
+            <div className=" laptop: w-auto flex items-center justify-center p-6">
+              <Carousel></Carousel>
+            </div>
+            <div className=" text-center p-6 m-6">
+              <p>
+                {" "}
+                As a Quality professional in the pharmaceutical and medical
+                devices industry, harmonizing ISO 9001 and ISO 13485 to quality
+                management systems (QMS), I lead quality assurance activities
+                across the product/ service lifecycle focusing on customer
+                satisfaction and continual improvement, and emphasizing
+                regulatory compliance and risk management approach.
+              </p>
+            </div>
           </div>
 
           <div className="items-center p-6 m-6">
@@ -65,7 +67,7 @@ function About() {
                 <div className="p-1 m-6">
                   <Card>
                     <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                      <div className=" text-center p-6 m-6">
+                      <div className=" text-center p-6 m-6 ">
                         Experience with eQMS, and strong data driven quality
                         decision making through effective system configuration,
                         reporting, and analytic capabilities.
@@ -91,9 +93,10 @@ function About() {
                 <div className="p-1 m-6">
                   <Card>
                     <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                      <div className=" text-center p-6 m-6">
+                      <div className=" text-center p-6 m-6 ">
                         Quality support and input for Change Controls, CAPAs,
-                        and Deviation Investigations.
+                        and Deviation Investigations and documentation
+                        activities (write, review, and approve).
                       </div>
                     </CardContent>
                   </Card>
@@ -111,18 +114,6 @@ function About() {
                   </Card>
                 </div>
 
-                {/* CardContainer #7 */}
-                <div className="p-1 m-6">
-                  <Card>
-                    <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                      <div className=" text-center p-6 m-6">
-                        Documentation activities (write, review, and approve)
-                        for Standard Operating Procedures (SOPs) in alignment
-                        with Client policies.
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
                 <div className="text-center p-6 m-6"></div>
               </CardContent>
             </Card>
