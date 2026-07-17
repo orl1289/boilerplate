@@ -1,12 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card";
-import image1 from "@/assets/images/Proffesional_photo-July 2026.png";
+import image1 from "@/assets/images/Photo_with_background.png";
 import { Link } from "react-router-dom";
 
 export function CardPic() {
   return (
     <div className="flex p-6">
       <Card>
-        <CardContent className="flex items-center justify-center p-6">
+        <CardContent className="flex items-center justify-center p-6 m-6">
           <img
             src={image1}
             className="rounded-lg object-contain md:object-cover"
@@ -40,7 +40,9 @@ export function CardPic() {
             <path d="M2 5.6V18c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V5.6l-.9.7-7.9 6a2 2 0 0 1-2.4 0l-8-6-.8-.7Z" />
             <path d="M20.7 4.1A2 2 0 0 0 20 4H4a2 2 0 0 0-.6.1l.7.6 7.9 6 7.9-6 .8-.6Z" />
           </svg>
-          <a href="mailto:orl1289@gmail.com">orl1289@gmail.com</a>
+          <a className="text-blue-500 hover:text-blue-700" href="mailto:orl1289@gmail.com">
+            orl1289@gmail.com
+          </a>
         </div>
         <div className="flex justify-center items-center m-2 p-2">
           <svg

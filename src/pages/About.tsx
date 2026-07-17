@@ -2,7 +2,7 @@ import "../App.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import Carousel from "@/components/Carousel";
+// import Carousel from "@/components/Carousel";
 
 function About() {
   return (
@@ -19,7 +19,7 @@ function About() {
               Catalog of Services
             </h1>
             <div className=" laptop: w-auto flex items-center justify-center p-6">
-              <Carousel></Carousel>
+              {/* <Carousel></Carousel> */}
             </div>
             <div className=" text-center p-6 m-6">
               <p>
@@ -42,7 +42,7 @@ function About() {
                   <Card>
                     <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
-                        Integrating ISO 9001 and ISO 13485 to quality management
+                        Harmonization of ISO 9001, ISO 13485, MDVR and IVDR to quality management
                         systems (QMS).
                       </div>
                     </CardContent>
@@ -54,7 +54,7 @@ function About() {
                   <Card>
                     <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
-                        Demonstrated understanding of QMS requirements, cGMP,
+                        Strong understanding of QMS requirements, cGMP,
                         ISO 9001, ISO 13485, FDA CFR 21 820, ICH Q8/Q9/Q10
                         guidelines and regulatory requirements applicable with
                         the IVD, MD, Pharma and LifeScience industries.
@@ -68,7 +68,7 @@ function About() {
                   <Card>
                     <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6 ">
-                        Experience with eQMS, and strong data driven quality
+                        High level experience with eQMS, and strong data driven quality
                         decision making through effective system configuration,
                         reporting, and analytic capabilities.
                       </div>
@@ -108,7 +108,7 @@ function About() {
                     <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <div className=" text-center p-6 m-6">
                         Process support in accordance with documented procedures
-                        and practices (GDP, ALCOA principles).
+                        and practices (cGMP,GDP, ALCOA principles).
                       </div>
                     </CardContent>
                   </Card>

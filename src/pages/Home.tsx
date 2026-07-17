@@ -37,7 +37,7 @@ function Home() {
                          {/* Who we are?,what do we do?, why we exist? */}
                         Mission
                       </h2>
-                      <div className=" text-center p-6 m-6">
+                      <div className=" text-center p-2 m-6">
                         To provide a high level of expertise in quality management
                         systems (QMS) to ensure compliance and customer
                         satisfaction.
@@ -51,10 +51,10 @@ function Home() {
                     <CardContent className=" overflow-hidden items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
                       <h1 className=" text-base tablet:text-lg laptop:text-xl desktop:text-2xl font-bold mb-4">
                         {/* What we aspire to be? */}
-                        Vission
+                        Vision
                       </h1>
-                      <div className=" text-center p-6 m-6">
-                        To continuously improve and innovate quality management systems to meet the evolving needs of our clients and stakeholders.
+                      <div className=" text-center p-2 m-6">
+                        To become an ally to continuously improve and innovate quality management systems to meet the evolving needs of our clients and stakeholders.
                       </div>
                     </CardContent>
                   </Card>

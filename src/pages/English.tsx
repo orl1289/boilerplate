@@ -125,7 +125,54 @@ function English() {
         </div>
 
         {/* < />!-- Edit Experience  --> */}
-        {/* <!-- #1 --> */}
+                {/* <!-- #1 --> */}
+        <div className="text-center p-4 m-2">
+          <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
+            {" "}
+            <p className="text-violet-950 text-4xl">
+              Freelance Quality Assurance Consultant
+            </p>
+            <p>
+              <i>Self-Employed</i>
+            </p>
+            <p>
+              <i> March 2026 - July 2026 - (Madrid, Spain)</i>
+            </p>
+          </h2>
+
+          <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
+            <p className="list-item list-inside p-2">
+              Supported Molecular Diagnostics IVD products and its commercial
+              supplier quality control processes for affiliates in EMEA and
+              LATAM regions, in alignment with Abbott’s quality systems,
+              applicable IVDR regulations and ISO 13485.
+            </p>
+            <p className="list-item list-inside p-2">
+              Collaborated with Commercial and Operational teams for IVD
+              products, with regards to traceability, cold chain logistics,
+              temperature-controlled warehousing, and local labeling
+              specifications.
+            </p>
+            <p className="list-item list-inside p-2">
+              Coordinated audits for the assessment of supplier’s quality
+              systems, including audit planning, agenda, scope and required
+              audit documentation.
+            </p>
+            <p className="list-item list-inside p-2">
+              Assisted in collecting and analyzing data from traceable quality
+              records for implementation plans and effectiveness checks for
+              CAPAs, to address nonconformance events.
+            </p>
+            <p className="list-item list-inside p-2">
+              Engaged in projects and plans to drive continuous improvements, in
+              accordance with the standard processes for elements related to
+              quality objectives, regulatory implementations, control of records
+              and KPIs (Sharepoint optimization, reporting tools).
+            </p>
+
+          </div>
+        </div>
+        {/* <!-- #2 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             {" "}
@@ -200,7 +247,7 @@ function English() {
             </p>
           </div>
         </div>
-        {/* <!-- #2 --> */}
+        {/* <!-- #3 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             {" "}
@@ -288,7 +335,7 @@ function English() {
           </div>
         </div>
 
-        {/* <!-- #3 --> */}
+        {/* <!-- #4 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             <p className="text-violet-950 text-4xl">Engineering Intern</p>
@@ -318,7 +365,7 @@ function English() {
             </p>
           </div>
         </div>
-        {/* < />!-- #4 --> */}
+        {/* < />!-- #5 --> */}
         <div className="text-primary-600 text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             <p className="text-violet-950 text-4xl">
@@ -387,7 +434,7 @@ function English() {
             </p>
           </div>
         </div>
-        {/* < />!-- #5 --> */}
+        {/* < />!-- #6 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             <p className="text-violet-950 text-4xl">
@@ -461,7 +508,7 @@ function English() {
             </p>
           </div>
         </div>
-        {/* < />!-- #6 --> */}
+        {/* < />!-- #7 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             <p className="text-violet-950 text-4xl">
@@ -497,7 +544,7 @@ function English() {
             </p>
           </div>
         </div>
-        {/* < />!-- #7 --> */}
+        {/* < />!-- #8 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             <p className="text-violet-950 text-4xl">
@@ -532,7 +579,7 @@ function English() {
             </p>
           </div>
         </div>
-        {/* < />!-- #8 --> */}
+        {/* < />!-- #9 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             <p className="text-violet-950 text-4xl">
