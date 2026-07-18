@@ -10,7 +10,7 @@ function PrivacyNote() {
       </header>
 
       <body>
-        <section className="m-auto w-auto p-6 text-xs tablet:text-xl laptop:text-2xl min-h-lvh">
+        <section className="m-auto w-auto p-6 min-h-lvh">
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
           <div className=" laptop: w-auto flex items-center justify-center p-6">
             <div>

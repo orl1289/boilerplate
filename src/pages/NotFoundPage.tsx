@@ -11,7 +11,7 @@ function NotFoundPage() {
       </header>
 
       <body>
-        <section className="m-auto w-auto p-6 text-xs tablet:text-xl laptop:text-2xl min-h-lvh">
+        <section className="m-auto w-auto p-6 min-h-lvh">
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
 
           <div className="text-4xl"> Page not found. Sorry!!</div>
