@@ -69,6 +69,13 @@ function PrivacyNote() {
                   Pexels
                 </a>
               </p>
+              <p>
+                Photo by Tima Miroshnichenko:
+                https://www.pexels.com/photo/person-in-gray-suit-holding-white-pen-and-document-on-a-clipboard-5439434/
+              </p>
+              <a>
+                href="https://www.pexels.com/photo/person-in-gray-suit-holding-white-pen-and-document-on-a-clipboard-5439434/"
+              </a>
             </div>
           </div>
 

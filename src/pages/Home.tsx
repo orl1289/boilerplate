@@ -2,6 +2,7 @@ import "../App.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import ImagesGrid from "@/components/ui/ImagesGrid";
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
               Welcome to my knowledge space
             </h1>
           </div>
-
+          <ImagesGrid/>
           <div className="text-lg tablet:text-xl laptop:text-2xl desktop:text-3xl p-4 m-2">
             With extensive experience leading electronic global quality
             management systems and process initiatives within multinational
@@ -55,7 +56,7 @@ function Home() {
                       {/* What we aspire to be? */}
                       Vision
                     </h1>
-                    /*Introduced object-contain to see how it behaves 18/07/2026@14.00 */
+                    {/* Introduced object-contain to see how it behaves 18/07/2026@14.00 */}
                     <div className=" object-contain text-xs text-justify p-1 m-auto tablet:text-base laptop:text-lg desktop:text-xl  tablet:mx-20">
                       To become an ally to continuously improve and innovate
                       quality management systems to meet the evolving needs of
