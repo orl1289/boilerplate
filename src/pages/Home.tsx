@@ -17,11 +17,11 @@ function Home() {
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
           <div className="items-center justify-center p-3">
             <h1 className="text-3xl tablet:text-4xl laptop:text-5xl desktop:text-6xl font-bold mb-4">
-              Welcome to my knowledge space
+              The knowledge infrastructure for Quality Assurance
             </h1>
           </div>
           <ImagesGrid/>
-          <div className="text-lg px-3 text-justify tablet:text-xl laptop:text-2xl desktop:text-3xl p-2 m-2 tablet:m-4 laptop:m-6">
+          <div className="text-lg text-justify tablet:text-xl laptop:text-2xl desktop:text-3xl p-2 m-2 tablet:m-4 laptop:m-6">
             With extensive experience leading electronic global quality
             management systems and process initiatives within multinational
             biotechnological organizations, and I am excited about the
