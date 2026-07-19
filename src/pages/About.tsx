@@ -21,7 +21,7 @@ function About() {
             <div className=" laptop: w-auto flex items-center justify-center p-6">
               {/* <Carousel></Carousel> */}
             </div>
-            <div className=" text-center p-6 m-6">
+            <div className="text-lg px-6 text-justify tablet:text-xl laptop:text-2xl desktop:text-3xl p-4 m-2">
               <p>
                 {" "}
                 As a Quality professional in the pharmaceutical and medical
@@ -41,7 +41,7 @@ function About() {
                 {/* CardContainer #1 */}
                 <div className="p-1 m-6">
                   <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                    <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
+                    <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
                       Harmonization of ISO 9001, ISO 13485, MDVR and IVDR to
                       quality management systems (QMS).
                     </div>
@@ -51,7 +51,7 @@ function About() {
                 {/* CardContainer #2 */}
                 <div className="p-1 m-6">
                   <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                    <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
+                    <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
                       Strong understanding of QMS requirements, cGMP, ISO 9001,
                       ISO 13485, FDA CFR 21 820, ICH Q8/Q9/Q10 guidelines and
                       regulatory requirements applicable with the IVD, MD,
@@ -63,7 +63,7 @@ function About() {
                 {/* CardContainer #3 */}
                 <div className="p-1 m-6">
                   <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                    <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
+                    <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
                       High level experience with eQMS, and strong data driven
                       quality decision making through effective system
                       configuration, reporting, and analytic capabilities.
@@ -74,7 +74,7 @@ function About() {
                 {/* CardContainer #4 */}
                 <div className="p-1 m-6">
                   <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                    <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
+                    <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
                       Management and building of periodic performance reports
                       with metrics and KPI’s for review (Power Bi, Excel
                       Dashboards)
@@ -85,7 +85,7 @@ function About() {
                 {/* CardContainer #5 */}
                 <div className="p-1 m-6">
                   <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                    <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
+                    <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
                       Quality support and input for Change Controls, CAPAs, and
                       Deviation Investigations and documentation activities
                       (write, review, and approve).
@@ -96,7 +96,7 @@ function About() {
                 {/* CardContainer #6 */}
                 <div className="p-1 m-6">
                   <CardContent className="flex items-center justify-center p-6 border-2 border-teal-600 rounded-lg">
-                    <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
+                    <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
                       Process support in accordance with documented procedures
                       and practices (cGMP,GDP, ALCOA principles).
                     </div>

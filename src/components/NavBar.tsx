@@ -12,10 +12,10 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="sticky z-10 top-0 left-0 right-0 box-border w-full">
+    <nav className="sticky z-[9999] top-0 left-0 right-0 box-border w-full">
       <div className=" mx-auto flex justify-between items-center">
         <div className="text-black m-2">
-          <p className="text-3xl laptop:text-5xl desktop:text-6xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">
+          <p className="m-5 items-center text-3xl laptop:text-5xl desktop:text-6xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">
             OMM
           </p>
         </div>
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } laptop:block laptop:flex laptop:items-center`}
+          } m-6 justify-between items-center laptop:block laptop:flex`}
         >
           <Link to="/" className="text-white hover:text-orange-500">
             <Button className="text-white m-3 text-center text-xs tablet:text-lg laptop:text-xl desktop:text-2xl">
