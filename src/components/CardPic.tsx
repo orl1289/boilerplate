@@ -6,11 +6,11 @@ export function CardPic() {
   return (
     <div className="flex p-6">
       <Card>
-        <CardContent className= "mb-4 break-inside-avoid">
+        <CardContent className= "m-1 break-inside-avoid rounded-xl">
           <img
             src={image1}
-            className="w-full object-cover py-10 rounded-lg laptop:py-0"
-            style={{ width: "100%", height: "280px" }} // Standard height and width
+            className="w-full rounded-full w-100% h-2/5 object-cover py-10 laptop:w-full laptop:h-96"
+            // style={{ width: "100%", height: "280px" }} // Standard height and width
           />
         </CardContent>
         <div className="flex justify-center items-center m-2 p-2">
