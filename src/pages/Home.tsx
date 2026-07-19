@@ -34,12 +34,12 @@ function Home() {
 
 
           {/*Division for CardContainer */}
-          <div className="items-center p-2 m-2 tablet:m-4 laptop:m-6">
+          <div className="items-center p-1 m-1 tablet:m-3 laptop:m-6">
             <Card className="border-inherit shadow-lg">
               <CardContent className="grid grid-flow-row tablet:grid-cols-2 gap-2 rounded-lg">
                 {/* CardContainer - Mission */}
-                <div className="text-center p-1 m-3">
-                  <CardContent className="overflow-hidden items-center justify-center p-3 border-2 border-teal-600 rounded-lg">
+                <div className="text-center p-1 m-1">
+                  <CardContent className="overflow-hidden items-center justify-center p-2 border-2 border-teal-600 rounded-lg">
                     <h1 className=" text-xl tablet:text-lg laptop:text-2xl desktop:text-3xl font-bold mb-4">
                       {/* Who we are?,what do we do?, why we exist? */}
                       Mission
@@ -54,8 +54,8 @@ function Home() {
                   </CardContent>
                 </div>
                 {/* CardContainer - Vision. Also implementing responsive box sizing*/}
-                <div className="text-center p-1 m-3">
-                  <CardContent className="flow-grow overflow-hidden items-center justify-center p-3 border-2 border-teal-600 rounded-lg">
+                <div className="text-center p-1 m-1">
+                  <CardContent className="flow-grow overflow-hidden items-center justify-center p-2 border-2 border-teal-600 rounded-lg">
                     <h1 className=" text-xl tablet:text-lg laptop:text-2xl desktop:text-3xl font-bold mb-4">
                       {/* What we aspire to be? */}
                       Vision
