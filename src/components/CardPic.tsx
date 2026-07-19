@@ -13,7 +13,7 @@ export function CardPic() {
             // style={{ width: "100%", height: "280px" }} // Standard height and width
           />
         </CardContent>
-        <div className="flex justify-center items-center m-2 p-2">
+        <div className="flex justify-center items-center m-2 p-2 text-base tablet:text-lg laptop:text-xl desktop:text-2xl">
           <svg
             className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
             aria-hidden="true"
@@ -29,7 +29,7 @@ export function CardPic() {
           </svg>
           Madrid, Spain - 28004
         </div>
-        <div className="flex justify-center items-center m-2 p-2">
+        <div className="flex justify-center items-center m-2 p-2 text-base tablet:text-lg laptop:text-xl desktop:text-2xl">
           <svg
             className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
             aria-hidden="true"
@@ -44,7 +44,7 @@ export function CardPic() {
             orl1289@gmail.com
           </a>
         </div>
-        <div className="flex justify-center items-center m-2 p-2">
+        <div className="flex justify-center items-center m-2 p-2 text-base tablet:text-lg laptop:text-xl desktop:text-2xl">
           <svg
             className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
             aria-hidden="true"

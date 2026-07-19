@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
               href="/about"
               className="hover:text-gray-400 text-xs mr-6 ml-6 tablet:text-lg laptop:text-xl"
             >
-              About
+              Services
             </a>
             <a
               href="/contact"

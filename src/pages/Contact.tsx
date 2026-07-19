@@ -39,17 +39,17 @@ function Contact() {
               </h1>
             </div>
 
-            <h2 className="text-[1.3rem] p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
+            <h2 className="text-xl p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
               University of Vigo
             </h2>
-            <p className=" text-2xl tablet:text-3xl tablet:mx-20 italic">
+            <p className=" text-lg tablet:text-2xl tablet:mx-20 italic">
               {" "}
               Energy and Sustainability Master's Degree
             </p>
-            <h2 className="text-[1.3rem] p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
+            <h2 className="text-xl p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
               University of Costa Rica
             </h2>
-            <p className=" text-2xl tablet:text-3xl tablet:mx-20 italic">
+            <p className=" text-lg tablet:text-2xl tablet:mx-20 italic">
               {" "}
               License in Chemical Engineering
             </p>
