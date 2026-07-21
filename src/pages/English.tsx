@@ -125,7 +125,7 @@ function English() {
         </div>
 
         {/* < />!-- Edit Experience  --> */}
-                {/* <!-- #1 --> */}
+        {/* <!-- #1 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             {" "}
@@ -142,10 +142,10 @@ function English() {
 
           <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
             <p className="list-item list-inside p-2">
-              Supported Molecular Diagnostics IVD products and its commercial
-              supplier quality control processes for affiliates in EMEA and
-              LATAM regions, in alignment with Abbott’s quality systems,
-              applicable IVDR regulations and ISO 13485.
+              Explore opportunities to apply generative AI, assisted workflows,
+              and agents to improve productivity and process execution, ensuring
+              alignment with enterprise data governance and AI architecture
+              guidelines.
             </p>
             <p className="list-item list-inside p-2">
               Collaborated with Commercial and Operational teams for IVD
@@ -169,7 +169,6 @@ function English() {
               quality objectives, regulatory implementations, control of records
               and KPIs (Sharepoint optimization, reporting tools).
             </p>
-
           </div>
         </div>
         {/* <!-- #2 --> */}

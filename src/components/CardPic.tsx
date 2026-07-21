@@ -41,7 +41,7 @@ export function CardPic() {
             <path d="M20.7 4.1A2 2 0 0 0 20 4H4a2 2 0 0 0-.6.1l.7.6 7.9 6 7.9-6 .8-.6Z" />
           </svg>
           <a className="text-blue-500 hover:text-blue-700" href="mailto:orl1289@gmail.com">
-            orl1289@gmail.com
+            contact@orlandomatamonge.com
           </a>
         </div>
         <div className="flex justify-center items-center m-2 p-2 text-base tablet:text-lg laptop:text-xl desktop:text-2xl">

@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="sticky z-[9999] top-0 left-0 right-0 box-border w-full">
+    <nav className="sticky z-[9999] top-0 left-0 right-0 box-border w-full pb-safe">
       <div className=" mx-auto flex justify-between items-center">
         <div className="text-black m-2">
           <p className="m-5 items-center text-3xl laptop:text-5xl desktop:text-6xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">

@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <nav className=" bg-primary text-white sticky top-0 right-0 box-border p-5 w-full">
+    <nav className=" bg-primary text-white sticky top-0 right-0 box-border p-5 w-full pb-safe">
       {/* FULL Div*/}
       <div className="max-w-container w-full mx-auto">
         
