@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         
         
         {/*Div that fits everything into one */}
-        <div className="flex justify-between items-center">
+        <div className="flex items-center justify-between p-3">
           {/*Symbol of the company */}
           <div>
             <p className="container left-0 w-fit text-lg tablet:text-xl laptop:text-2xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">

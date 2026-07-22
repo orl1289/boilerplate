@@ -12,26 +12,24 @@ function Home() {
       </header>
       <body>
         <section className="m-auto w-auto p-6 min-h-lvh">
-
-
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
           <div className="items-center justify-center p-3">
             <h1 className="text-3xl tablet:text-4xl laptop:text-5xl desktop:text-6xl font-bold mb-4">
               Quality Assurance & Regulatory Affairs Consulting
             </h1>
           </div>
-          <ImagesGrid/>
+          <ImagesGrid />
           <div className="text-lg text-justify tablet:text-xl laptop:text-2xl desktop:text-3xl p-2 m-2 tablet:m-4 laptop:m-6">
             With extensive experience leading electronic global quality
             management systems and process initiatives within multinational
             biotechnological organizations, and I am excited about the
             opportunity to contribute with my expertise in quality processes
             integration, documentation management in electronic QMS tools, and
-            well- architected data frameworks to company within the
-            pharmaceutical, medical devices and in-vitro diagnostics with a keen
-            focus on transforming lives through innovation.
+            well- architected data frameworks to organizations within the
+            pharmaceutical, medical devices and in-vitro diagnostics industry,
+            leading and sharing expertise with a keen focus on transforming
+            lives through innovation.
           </div>
-
 
           {/*Division for CardContainer */}
           <div className="items-center p-1 m-1 tablet:m-3 laptop:m-6">

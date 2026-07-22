@@ -767,15 +767,28 @@ function English() {
             <div>Costumer-focused</div>
             <div>Self-motivated</div>
             <div>QMS/PQS</div>
+            <div>Audit readiness</div>
+            <div>Audit preparation</div>
+            <div>Compliance monitoring</div>
+            <div>Continous improvement</div>
+            <div>Contractual compliance</div>
+            <div>Regulatory Support</div>
             <div>Planner and conceptualizer</div>
+            <div>Internal and external audits</div>
+            <div>Supplier's qualification process</div>
+            <div>Suppliers complains</div>
+            <div>Supplier Corrective Action Requests</div>
             <div>Autonomous and proactive</div>
+            <div>Quality agreements</div>
             <div>Efective written and oral communication</div>
             <div>Attentive to detail</div>
             <div>Good listener</div>
             <div>Deadline conscious</div>
+
             <div>Adaptability</div>
             <div>Organizational skills</div>
             <div>Troubleshooter</div>
+            <div>Resourceful</div>
             <div>Process-oriented</div>
             <div>Entrepreneurial</div>
             <div>Learning oriented</div>
