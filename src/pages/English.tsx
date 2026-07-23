@@ -142,10 +142,11 @@ function English() {
 
           <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
             <p className="list-item list-inside p-2">
-              Explore opportunities to apply generative AI, assisted workflows,
-              and agents to improve productivity and process execution, ensuring
-              alignment with enterprise data governance and AI architecture
-              guidelines.
+              I currently explore opportunities to apply generative AI, assisted
+              workflows, and agents to improve productivity and process
+              execution in Quality Assurance processes and Regulatory support,
+              ensuring alignment with enterprise data governance and AI
+              architecture guidelines.
             </p>
             <p className="list-item list-inside p-2">
               Collaborated with Commercial and Operational teams for IVD
@@ -456,10 +457,21 @@ function English() {
               responsive environment.
             </p>
             <p className="list-item list-inside p-2">
-              Analysed data and quality management processes to identify
-              inefficiencies and areas for improvement, in accordance with data
-              modeling, ETL/ELT processes, and data governance principles,
-              policies and procedures.
+              Acted as Subject Matter Expert and a point of contact between
+              other internal operational stakeholders and the Data Management
+              team.
+            </p>
+            <p className="list-item list-inside p-2">
+              Conducted the review of defects and performed data analysis to
+              identify inconsistencies or data quality issues and mobilized
+              resources to address these challenges in accordance with data
+              modeling, ETL/ELT processes, data governance principles, policies
+              and procedures.
+            </p>
+            <p className="list-item list-inside p-2">
+              Coordinated the continuous process improvement initiatives,
+              maintained up-to-date training materials and SOPs, and prioritized
+              training to ensure data practices align with business objectives.
             </p>
             <p className="list-item list-inside p-2">
               Maximized team productivity and performance by strategically
@@ -473,29 +485,14 @@ function English() {
               visualization dashboard tools (Amazon Quicksight, ticketing tool).
             </p>
             <p className="list-item list-inside p-2">
-              Coordinated the continuous process improvement initiatives,
-              maintained up-to-date training materials and SOPs, and prioritized
-              training delivery about new requirements.
-            </p>
-            <p className="list-item list-inside p-2">
               Supplied the reporting and information access needs by designing
               simple and complex queries in the application tools (Power BI,
               Amazon QuickSight, and/or SQL).
             </p>
             <p className="list-item list-inside p-2">
-              Conducted the review of defects, difficult cases, and escalations
-              according to the severity impact scale to meet client
-              requirements.
-            </p>
-            <p className="list-item list-inside p-2">
               Performed root cause analysis techniques (RCA), investigating
               discrepancies in processes to uncover weaknesses and implement
               corrective actions.
-            </p>
-            <p className="list-item list-inside p-2">
-              Acted as Subject Matter Expert and a point of contact between
-              other internal operational stakeholders and the Data Management
-              team.
             </p>
             <p className="list-item list-inside p-2">
               Configured and tested the multi asset tools and process solutions
@@ -780,11 +777,11 @@ function English() {
             <div>Supplier Corrective Action Requests</div>
             <div>Autonomous and proactive</div>
             <div>Quality agreements</div>
+            <div>Open dialogue</div>
             <div>Efective written and oral communication</div>
             <div>Attentive to detail</div>
             <div>Good listener</div>
             <div>Deadline conscious</div>
-
             <div>Adaptability</div>
             <div>Organizational skills</div>
             <div>Troubleshooter</div>
@@ -793,6 +790,12 @@ function English() {
             <div>Entrepreneurial</div>
             <div>Learning oriented</div>
             <div>Data visualization tools</div>
+            <div>Data ownership</div>
+            <div>Data integration capabilities</div>
+            <div>Data quality</div>
+            <div>Data operations</div>
+            <div>Modern ETL</div>
+            <div>Training design</div>
             <div>Used to work in a multicultural environment</div>
             <div>Data extraction and reporting</div>
             <div>Writting of technical documentation</div>
@@ -878,6 +881,12 @@ function English() {
           <div className="text-xl grid tablet:text-2xl tablet:grid-cols-3">
             <div>ISO 9001:2015</div>
             <div>ISO 13485:2016</div>
+            <div>ISO 50001:2018</div>
+            <div>SO 14001:2026</div>
+            <div>Global Reporting Initiative</div>
+            <div>UN SDG</div>
+            <div>EU CSRD</div>
+            <div>GHG Protocol</div>
             <div>MDR EU 2017/745</div>
             <div>IVDR EU 2017/746</div>
             <div>Data Privacy Regulations (GDPR)</div>
