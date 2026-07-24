@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export function CardPic() {
   return (
-    <div className="flex p-6">
+    <div className="m-10 flex p-6">
       <Card>
-        <CardContent className= "m-1 break-inside-avoid rounded-xl">
+        <CardContent className= "m-5 rounded-xl">
           <img
             src={image1}
             className="w-full rounded-full w-100% h-2/5 object-cover py-10 laptop:w-full laptop:h-96"

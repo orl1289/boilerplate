@@ -10,7 +10,7 @@ function Contact() {
         <NavBar />
       </header>
       <body>
-        <section className="flex items-center justify-center m-auto w-auto">
+        <section className="flex items-center justify-center px-28 w-auto">
           {/* <!--------------------- Card/Contact Info--------------------------------------------------------------> */}
 
         <div className="laptop:py-20 gap-4 min-h-lvh">
