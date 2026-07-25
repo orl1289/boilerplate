@@ -4,34 +4,38 @@ import { Link } from "react-router-dom";
 
 export function CardPic() {
   return (
-    <div className="m-10 flex p-6">
-      <Card>
-        <CardContent className= "m-5 rounded-xl">
+    <div className="p-4 sm:p-6 md:p-8 lg:p-10 flex justify-center">
+      <Card className="w-full max-w-2xl">
+        <CardContent className="p-4 sm:p-5 md:p-6 flex justify-center">
           <img
             src={image1}
-            className="w-full rounded-full w-100% h-2/5 object-cover py-10 laptop:w-full laptop:h-96"
-            // style={{ width: "100%", height: "280px" }} // Standard height and width
+            alt="Profile"
+            className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 object-cover rounded-full"
           />
         </CardContent>
-        <div className="flex justify-center items-center m-2 p-2 text-base tablet:text-lg laptop:text-xl desktop:text-2xl">
+
+        {/* Location */}
+        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-2 py-1 text-sm sm:text-base md:text-lg lg:text-xl">
           <svg
-            className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
+            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M12 2a8 8 0 0 1 6.6 12.6l-.1.1-.6.7-5.1 6.2a1 1 0 0 1-1.6 0L6 15.3l-.3-.4-.2-.2v-.2A8 8 0 0 1 11.8 2Zm3 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             />
           </svg>
-          Madrid, Spain - 28004
+          <span className="whitespace-nowrap">Madrid, Spain - 28004</span>
         </div>
-        <div className="flex justify-center items-center m-2 p-2 text-base tablet:text-lg laptop:text-xl desktop:text-2xl">
+
+        {/* Email */}
+        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-4 py-1 text-sm sm:text-base md:text-lg lg:text-xl">
           <svg
-            className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
+            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -40,13 +44,18 @@ export function CardPic() {
             <path d="M2 5.6V18c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V5.6l-.9.7-7.9 6a2 2 0 0 1-2.4 0l-8-6-.8-.7Z" />
             <path d="M20.7 4.1A2 2 0 0 0 20 4H4a2 2 0 0 0-.6.1l.7.6 7.9 6 7.9-6 .8-.6Z" />
           </svg>
-          <a className="text-blue-500 hover:text-blue-700" href="mailto:contact@orlandomatamonge.com">
+          <a 
+            className="text-blue-500 hover:text-blue-700 whitespace-nowrap" 
+            href="mailto:contact@orlandomatamonge.com"
+          >
             contact@orlandomatamonge.com
           </a>
         </div>
-        <div className="flex justify-center items-center m-2 p-2 text-base tablet:text-lg laptop:text-xl desktop:text-2xl">
+
+        {/* Phone */}
+        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-2 py-1 text-sm sm:text-base md:text-lg lg:text-xl">
           <svg
-            className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
+            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -54,17 +63,21 @@ export function CardPic() {
           >
             <path d="M8 4a2.6 2.6 0 0 0-2 .9 6.2 6.2 0 0 0-1.8 6 12 12 0 0 0 3.4 5.5 12 12 0 0 0 5.6 3.4 6.2 6.2 0 0 0 6.6-2.7 2.6 2.6 0 0 0-.7-3L18 12.9a2.7 2.7 0 0 0-3.8 0l-.6.6a.8.8 0 0 1-1.1 0l-1.9-1.8a.8.8 0 0 1 0-1.2l.6-.6a2.7 2.7 0 0 0 0-3.8L10 4.9A2.6 2.6 0 0 0 8 4Z" />
           </svg>
-          +34 692 53 65 87
+          <span className="whitespace-nowrap">+34 692 53 65 87</span>
         </div>
-        <div>
-          <Link to="/english" className="text-white hover:text-orange-500">
-            <p className=" text-base mr-1 tablet:text-lg laptop:text-xl">
-              Resume
-            </p>
+
+        {/* Resume Link */}
+        <div className="flex justify-center items-center my-4">
+          <Link 
+            to="/english" 
+            className="text-blue-500 hover:text-orange-500 transition-colors text-sm sm:text-base md:text-lg lg:text-xl font-medium"
+          >
+            Resume
           </Link>
         </div>
       </Card>
     </div>
   );
 }
+
 export default CardPic;
