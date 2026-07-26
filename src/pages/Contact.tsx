@@ -10,15 +10,15 @@ function Contact() {
         <NavBar />
       </header>
       <body>
-        <section className="flex lg:flex-row items-center justify-center px-2 sm:px-3 md:px-5 lg:px-8 xl:px-15 py-8 lg:py-20 min-h-screen">          {/* <!--------------------- Card/Contact Info--------------------------------------------------------------> */}
-
-          <div className="w-full lg:w-auto flex justify-center">
+        <section className="flex flex-col laptop:flex-row items-center justify-center gap-2 px-2 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-8 lg:py-10 min-h-screen">
+          <div className="w-full flex justify-center">
             {" "}
             <CardPic />
           </div>
 
           {/* <!--------------------- Education--------------------------------------------------------------> */}
-          <div className="text-center p-4 m-2">
+          <div className="w-full text-center p-4">
+            {" "}
             <div className="flex justify-center items-center">
               <svg
                 className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
@@ -37,7 +37,6 @@ function Contact() {
                 Education
               </h1>
             </div>
-
             <h2 className="text-xl p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
               University of Vigo
             </h2>
@@ -52,7 +51,6 @@ function Contact() {
               {" "}
               License in Chemical Engineering
             </p>
-
             <div>Do not hesitate to contact me at anytime!</div>
           </div>
         </section>

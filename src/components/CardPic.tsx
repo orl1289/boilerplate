@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 
 export function CardPic() {
   return (
-    <div className="p-4 sm:p-6 md:p-8 lg:p-10 flex justify-center">
+    <div className="p-4 tablet:p-6 laptop:p-8 desktop:p-10 flex justify-center">
       <Card className="w-full max-w-2xl">
-        <CardContent className="p-4 sm:p-5 md:p-6 flex justify-center">
+        <CardContent className="p-4 tablet:p-5 laptop:p-6 flex justify-center">
           <img
             src={image1}
             alt="Profile"
-            className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 object-cover rounded-full"
+            className="w-48 h-48 tablet:w-56 tablet:h-56 laptop:w-64 laptop:h-64 desktop:w-80 desltop:h-80 object-cover rounded-full"
           />
         </CardContent>
 
         {/* Location */}
-        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-2 py-1 text-sm sm:text-base md:text-lg lg:text-xl">
+        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-2 py-1 text-sm tablet:text-base laptop:text-lg desktop:text-2xl">
           <svg
-            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0"
+            className="w-4 h-4 tablet:w-5 tablet:h-5 laptop:w-6 laptop:h-6 flex-shrink-0"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -33,9 +33,9 @@ export function CardPic() {
         </div>
 
         {/* Email */}
-        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-4 py-1 text-sm sm:text-base md:text-lg lg:text-xl">
+        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-2 py-1 text-sm tablet:text-base laptop:text-lg desktop:text-2xl">
           <svg
-            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0"
+            className="w-4 h-4 tablet:w-5 tablet:h-5 laptop:w-6 laptop:h-6 flex-shrink-0"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -53,9 +53,9 @@ export function CardPic() {
         </div>
 
         {/* Phone */}
-        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-2 py-1 text-sm sm:text-base md:text-lg lg:text-xl">
+        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-2 py-1 text-sm tablet:text-base laptop:text-lg desktop:text-2xl">
           <svg
-            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0"
+            className="w-4 h-4 tablet:w-5 tablet:h-5 laptop:w-6 laptop:h-6 flex-shrink-0"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -67,10 +67,10 @@ export function CardPic() {
         </div>
 
         {/* Resume Link */}
-        <div className="flex justify-center items-center my-4">
+        <div className="flex justify-center items-center gap-2 mx-2 my-3 px-2 py-1 text-sm tablet:text-base laptop:text-lg desktop:text-2xl">
           <Link 
             to="/english" 
-            className="text-blue-500 hover:text-orange-500 transition-colors text-sm sm:text-base md:text-lg lg:text-xl font-medium"
+            className="text-white hover:text-orange-500 transition-colors text-sm tablet:text-base laptop:text-lg desktop:text-xl font-medium"
           >
             Resume
           </Link>
