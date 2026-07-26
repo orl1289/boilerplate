@@ -8,14 +8,14 @@ export default function App() {
 
   const getResponsiveConfig = () => {
     const width = window.innerWidth;
-  if (width <= 360) {
-    return { height: 60, fontSize: 'clamp(1rem, 4vw, 2rem)' };
-  }
-  if (width <= 768) {
-    return { height: 80, fontSize: 'clamp(1.5rem, 5vw, 3rem)' };
-  }
-  return { height: 100, fontSize: 'clamp(2rem, 6vw, 4rem)' };
-};
+    if (width <= 360) {
+      return { height: 60, fontSize: "clamp(1rem, 4vw, 2rem)" };
+    }
+    if (width <= 768) {
+      return { height: 80, fontSize: "clamp(1.5rem, 5vw, 3rem)" };
+    }
+    return { height: 100, fontSize: "clamp(2rem, 6vw, 4rem)" };
+  };
 
   const [config, setConfig] = useState(getResponsiveConfig());
 
@@ -54,29 +54,15 @@ export default function App() {
     ref.current = [];
     set([]);
     ref.current.push(
-      setTimeout(
-        () => set(["Quality", "Compliance", "Regulatory"]),
-        2000,
-      ),
+      setTimeout(() => set(["Quality", "Compliance", "Regulatory"]), 2000),
+    );
+    ref.current.push(setTimeout(() => set(["Quality", "Regulatory"]), 5000));
+    ref.current.push(
+      setTimeout(() => set(["Quality", "Safety", "Regulatory"]), 8000),
     );
     ref.current.push(
-      setTimeout(() => set(["Quality", "Regulatory"]), 5000),
+      setTimeout(() => reset(), 11000), // Wait 3 seconds after last change, then restart
     );
-    ref.current.push(
-      setTimeout(
-        () =>
-          set([
-            "Quality",
-            "Safety",
-            "Regulatory",
-          ]),
-        8000,
-      ),
-    );
-      ref.current.push(
-    setTimeout(() => reset(), 11000)  // Wait 3 seconds after last change, then restart
-  );  
-    
   }, []);
 
   useEffect(() => {
@@ -90,17 +76,19 @@ export default function App() {
         {transitions(({ innerHeight, ...rest }, item) => (
           <animated.div
             className={styles.transitionsItem}
-            style={{
-              ...rest,
-              fontSize: config.fontSize,
-              lineHeight: `${config.height}px`,
-            }}
+            style={
+              {
+                ...rest,
+                fontSize: config.fontSize,
+                lineHeight: `${config.height}px`,
+              } as any
+            } //Add type assertion here
             onClick={reset}
           >
             <animated.div
               style={{
                 overflow: "hidden",
-                height: innerHeight,
+                height: innerHeight as any,
                 whiteSpace: "normal" /* Allow wrapping*/,
               }}
             >
