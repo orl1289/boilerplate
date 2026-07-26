@@ -2,6 +2,7 @@ import "../App.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
+import InversedLetters from "../components/InversedLetters";
 // import Carousel from "@/components/Carousel";
 
 function About() {
@@ -14,11 +15,15 @@ function About() {
       <body>
         <section className="m-auto w-auto p-6 min-h-lvh">
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
-          <div className="items-center justify-center p-6">
+
+          <div className="items-center text-2xl justify-center p-6">
             <h1 className="text-3xl tablet:text-4xl laptop:text-5xl desktop:text-6xl font-bold mb-4">
               Catalog of Services
             </h1>
             <div className=" laptop: w-auto flex items-center justify-center p-6">
+              <div className="w-full overflow-visible">
+                <InversedLetters />
+              </div>
               {/* <Carousel></Carousel> */}
             </div>
             <div className="text-lg text-justify tablet:text-xl laptop:text-2xl desktop:text-3xl  p-2 m-2 tablet:m-4 laptop:m-6">
