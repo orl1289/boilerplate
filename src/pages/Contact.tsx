@@ -10,7 +10,7 @@ function Contact() {
         <NavBar />
       </header>
       <body>
-        <section className="flex flex-col laptop:flex-row items-center justify-center gap-2 px-2 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-8 lg:py-10 min-h-screen">
+        <section className="flex flex-col laptop:flex-row items-center justify-center gap-2 px-2 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-8 lg:py-30 min-h-screen">
           <div className="w-full flex justify-center">
             {" "}
             <CardPic />
