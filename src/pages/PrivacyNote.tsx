@@ -1,6 +1,7 @@
 import "../App.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import NoCookies from "@/components/NoCookies";
 
 function PrivacyNote() {
   return (
@@ -11,8 +12,14 @@ function PrivacyNote() {
 
       <body>
         <section className="m-auto w-auto p-6 min-h-lvh">
+          {/* <!--------------------- Privacy Note --------------------------------------------------------------> */}
+
+          <div>
+            <NoCookies/>
+          </div>
+
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
-          <div className=" laptop: w-auto flex items-center justify-center p-6">
+          {/* <div className=" laptop: w-auto flex items-center justify-center p-6">
             <div>
               <p>
                 {" "}
@@ -77,9 +84,9 @@ function PrivacyNote() {
                 href="https://www.pexels.com/photo/person-in-gray-suit-holding-white-pen-and-document-on-a-clipboard-5439434/"
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div className=" laptop: w-auto items-center justify-center p-6">
+          {/* <div className=" laptop: w-auto items-center justify-center p-6">
             <p>
               Flowbite Icons is a free and open-source collection of SVG icons
               that you can use in personal and commercial projects by giving
@@ -88,14 +95,14 @@ function PrivacyNote() {
               Zoltán Szőgyényi.
             </p>
             https://twitter.com/zoltanszogyenyi
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             Copyright 2020 The Anton Project Authors
             (https://github.com/googlefonts/AntonFont.git) This Font Software is
             licensed under the SIL Open Font License, Version 1.1. This license
             is copied below, and is also available with a FAQ at:
             http://scripts.sil.org/OFL
-          </div>
+          </div> */}
         </section>
       </body>
       <footer>
