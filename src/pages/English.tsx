@@ -9,19 +9,27 @@ function English() {
         <NavBar />
       </header>
 
-      <section className="m-auto">
+      <section className="container m-auto laptop:px-10">
         {/* <!--------------------- Intro --------------------------------------------------------------> */}
-        <div className="text-center text-[0.6rem] tablet:text-base laptop:text-xl">
-          <h1 className="font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent box-decoration-clone">
+        <div className="text-center m-10 py-3">
+          <h1 className="font-bold box-decoration-clone text-3xl tablet:text-4xl laptop:text-5xl">
             <span className="leading-normal">
-              <p>Eng. Orlando Mata Monge</p>
-              <p>Chemical Engineer</p>
-              <p>Energy and Sustainability Master's Degree</p>
+              <p>Orlando Mata Monge</p>
             </span>
           </h1>
+          <h1 className="box-decoration-clone text-2xl tablet:text-3xl laptop:text-4xl">
+            <p>Chemical Engineer</p>
+            <p>Energy and Sustainability Master's Degree</p>
+          </h1>
+          {/* <div className="text-xl m-2 grid tablet:text-xl laptop:text-2xl tablet:grid-cols-4 py-5">
+            <p>Quality Assurance</p>
+            <p> Regulatory Support</p>
+            <p> IT & Data Management</p>
+            <p> Business Insight</p>
+          </div> */}
         </div>
 
-        <div className="text-xl m-2 grid tablet:text-2xl laptop:text-3xl tablet:grid-cols-3">
+        <div className="text-xl m-2 grid tablet:text-xl laptop:text-2xl tablet:grid-cols-3 py-5">
           <div className="flex justify-center items-center">
             <svg
               className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
@@ -67,7 +75,7 @@ function English() {
 
         {/* // <!--------------------- Education --------------------------------------------------------------> */}
         <div className="text-center p-4 m-2">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center p-4">
             <svg
               className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
               aria-hidden="true"
@@ -86,14 +94,14 @@ function English() {
             </h1>
           </div>
 
-          <h2 className="text-[1.3rem] p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
+          <h2 className="text-base p-4 list-item list-inside tablet:text-xl laptop:text-3xl">
             University of Vigo
           </h2>
           <p className=" text-2xl tablet:text-3xl tablet:mx-20 italic">
             {" "}
             Energy and Sustainability Master's Degree
           </p>
-          <h2 className="text-[1.3rem] p-4 list-item list-inside tablet:text-2xl laptop:text-3xl">
+          <h2 className="text-[1.3rem] p-4 list-item list-inside tablet:text-xl laptop:text-3xl">
             University of Costa Rica
           </h2>
           <p className=" text-2xl tablet:text-3xl tablet:mx-20 italic">
@@ -126,7 +134,7 @@ function English() {
 
         {/* < />!-- Edit Experience  --> */}
         {/* <!-- #1 --> */}
-        <div className="text-center p-4 m-2">
+        {/* <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             {" "}
             <p className="text-violet-950 text-4xl">
@@ -171,12 +179,12 @@ function English() {
               and KPIs (Sharepoint optimization, reporting tools).
             </p>
           </div>
-        </div>
+        </div> */}
         {/* <!-- #2 --> */}
         <div className="text-center p-4 m-2">
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             {" "}
-            <p className="text-violet-950 text-4xl">
+            <p className="text-violet-950 text-3xl">
               Commercial Suppliers & Distribution Quality Assurance
             </p>
             <p>
