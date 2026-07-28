@@ -3,7 +3,8 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
-
+import Lottie from "lottie-react";
+import animationData from "..//assets/images/bg-logo.json";
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,13 +15,22 @@ const Navbar: React.FC = () => {
   return (
     <nav className="sticky z-[9999] top-0 left-0 right-0 box-border w-full pb-safe">
       <div className=" mx-auto flex justify-between items-center">
-        <div className="text-black m-2">
+        <div className="flex text-black m-2">
+          <Lottie
+            className="max-w-[3rem] tablet:max-w-[5rem] laptop:max-w-[7rem]"
+            animationData={animationData}
+            loop={2}
+            autoplay={true}
+          />
           <p className="m-5 items-center text-3xl laptop:text-5xl desktop:text-6xl font-bold bg-gradient-to-br from-blue-700 to-green-400 bg-clip-text text-transparent">
             OMM
           </p>
         </div>
-        <Button className="block m-5 laptop:hidden text-white" onClick={toggleMenu}>
-          {/* Setting the Hamburger Icon */}
+        <Button
+          className="block m-5 laptop:hidden text-white"
+          onClick={toggleMenu}
+        >
+          {/* Setting the Hamburger Icon for the Mobile Menu */}
           {isOpen ? (
             <HamburgerIcon></HamburgerIcon>
           ) : (
