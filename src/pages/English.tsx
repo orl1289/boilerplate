@@ -57,7 +57,7 @@ function English() {
               <path d="M2 5.6V18c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V5.6l-.9.7-7.9 6a2 2 0 0 1-2.4 0l-8-6-.8-.7Z" />
               <path d="M20.7 4.1A2 2 0 0 0 20 4H4a2 2 0 0 0-.6.1l.7.6 7.9 6 7.9-6 .8-.6Z" />
             </svg>
-            <a href="mailto:orl1289@gmail.com">orl1289@gmail.com</a>
+            <a href="mailto:orl1289@gmail.com">contact@orlandomatamonge.com</a>
           </div>
           <div className="flex justify-center items-center">
             <svg
@@ -786,13 +786,17 @@ function English() {
             <div>Autonomous and proactive</div>
             <div>Quality agreements</div>
             <div>Open dialogue</div>
-            <div>Efective written and oral communication</div>
+            <div>Effective written and oral communication</div>
             <div>Attentive to detail</div>
             <div>Good listener</div>
             <div>Deadline conscious</div>
             <div>Adaptability</div>
             <div>Organizational skills</div>
             <div>Troubleshooter</div>
+            <div>Stewardship</div>
+            <div>Systems thinking</div>
+            <div>Stakeholder engagement</div>
+            <div>Support facilitation</div>
             <div>Resourceful</div>
             <div>Process-oriented</div>
             <div>Entrepreneurial</div>
@@ -806,7 +810,7 @@ function English() {
             <div>Training design</div>
             <div>Used to work in a multicultural environment</div>
             <div>Data extraction and reporting</div>
-            <div>Writting of technical documentation</div>
+            <div>Writing of technical documentation</div>
           </div>
         </div>
 
@@ -860,6 +864,7 @@ function English() {
             <div>CEX</div>
             <div>HULC</div>
             <div>Cypetherm</div>
+            <div>Six Sigma</div>
             <div>Cloud Services</div>
             <div>AWS Cloud Practitioner</div>
             <div>Amazon QuickSight</div>

@@ -33,7 +33,7 @@ function About() {
                 devices industry, harmonizing ISO 9001 and ISO 13485 to quality
                 management systems (QMS), I lead quality assurance activities
                 across the product/ service lifecycle focusing on customer
-                satisfaction and continual improvement, and emphasizing
+                satisfaction and continuous improvement, and emphasizing
                 regulatory compliance and risk management approach.
               </p>
             </div>
@@ -47,8 +47,9 @@ function About() {
                 <div className="p-1 m-1">
                   <CardContent className="flex items-center justify-center p-2 border-2 border-teal-600 rounded-lg">
                     <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
-                      Harmonization of ISO 9001, ISO 13485, MDVR and IVDR to
-                      quality management systems (QMS).
+                      Harmonization of ISO 9001, ISO 13485, medicinal products,
+                      MDVR and IVDR regulations to quality management systems
+                      (QMS).
                     </div>
                   </CardContent>
                 </div>
@@ -58,9 +59,10 @@ function About() {
                   <CardContent className="flex items-center justify-center p-2 border-2 border-teal-600 rounded-lg">
                     <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
                       Strong understanding of QMS requirements, cGMP, ISO 9001,
-                      ISO 13485, FDA CFR 21 820, ICH Q8/Q9/Q10 guidelines and
-                      regulatory requirements applicable with the IVD, MD,
-                      Pharma and LifeScience industries.
+                      ISO 13485, FDA CFR 21 Part 820, Part 210, Part 211 and
+                      Part 11, ICH Q8/Q9/Q10 guidelines and regulatory
+                      requirements applicable with the IVD, MD, medicinal
+                      products and LifeScience industries.
                     </div>
                   </CardContent>
                 </div>
@@ -103,7 +105,29 @@ function About() {
                   <CardContent className="flex items-center justify-center p-2 border-2 border-teal-600 rounded-lg">
                     <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
                       Process support in accordance with documented procedures
-                      and practices (cGMP,GDP, ALCOA principles).
+                      and practices (cGMP, GDP, ALCOA principles).
+                    </div>
+                  </CardContent>
+                </div>
+
+                {/* CardContainer #7 */}
+                <div className="p-1 m-1">
+                  <CardContent className="flex items-center justify-center p-2 border-2 border-teal-600 rounded-lg">
+                    <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
+                      Develop, revise, and implement QMS procedures, work
+                      instructions, templates, forms, quality records, and
+                      supporting documentation to establish inspection-ready
+                      quality processes.
+                    </div>
+                  </CardContent>
+                </div>
+                {/* CardContainer #8 */}
+                <div className="p-1 m-1">
+                  <CardContent className="flex items-center justify-center p-2 border-2 border-teal-600 rounded-lg">
+                    <div className="text-sm text-justify p-1 m-2 tablet:text-base tablet:mx-5 desktop:text-xl">
+                      Evaluate and enhance supplier assessments, and supplier
+                      lifecycle management for ensuring supplier's compliant controls.
+                      
                     </div>
                   </CardContent>
                 </div>

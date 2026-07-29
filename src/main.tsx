@@ -12,7 +12,7 @@ import Contact from "./pages/Contact.tsx";
 import NotFoundPage from "./pages/NotFoundPage.tsx";
 import PrivacyNote from "./pages/PrivacyNote.tsx";
 import English from "./pages/English.tsx";
-
+import Spanish from "./pages/Spanish.tsx"
 //* Here I created the router, router and special package to configure
 //*routes statically (it's impossible to generate purely dynamic routes on a server)
 
@@ -35,6 +35,11 @@ const router = createBrowserRouter([
     {
     path: "/english",
     element: <English />,
+  },
+
+      {
+    path: "/spanish",
+    element: <Spanish />,
   },
 
   {

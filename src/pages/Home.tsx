@@ -15,7 +15,7 @@ function Home() {
           {/* <!--------------------- Intro --------------------------------------------------------------> */}
           <div className="items-center justify-center p-3">
             <h1 className="text-3xl tablet:text-4xl laptop:text-5xl desktop:text-6xl font-bold mb-4">
-              Quality Assurance & Regulatory Affairs Consulting
+              Quality Assurance & Regulatory Support Specialist
             </h1>
           </div>
           <ImagesGrid />
