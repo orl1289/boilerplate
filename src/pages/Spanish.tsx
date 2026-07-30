@@ -18,11 +18,10 @@ function Home() {
             </span>
           </h1>
           <h1 className="box-decoration-clone text-2xl tablet:text-3xl laptop:text-4xl">
-            <p>Chemical Engineer</p>
-            <p>Energy and Sustainability Master's Degree</p>
+            <p>Ingeniero Químico</p>
+            <p>Máster en Energía y Sostenibilidad</p>
           </h1>
         </div>
-
 
         <div className="text-xl m-2 grid tablet:text-xl laptop:text-2xl tablet:grid-cols-3 py-5">
           <div className="flex justify-center items-center">
@@ -71,7 +70,7 @@ function Home() {
 
         {/* --------------------- Education --------------------------------------------------------------> */}
 
-       <div className="text-center p-4 m-2">
+        <div className="text-center p-4 m-2">
           <div className="flex justify-center items-center p-4">
             <svg
               className="h-full max-w-[1rem] tablet:max-w-[1.4rem] laptop:max-w-[1.8rem] desktop:max-w-[2rem]"
@@ -128,7 +127,7 @@ function Home() {
           <h2 className="text-xl m-5 font-semibold tablet:text-2xl laptop:text-3xl">
             {" "}
             <p className="text-violet-950 text-4xl">
-              Commercial & Distribution Quality Assurance
+              Commercial Suppliers & Distribution Quality Assurance
             </p>
             <p>
               <i>Abbott Laboratories</i>
@@ -146,14 +145,16 @@ function Home() {
               regulatorios de Abbott para productos IVD Molecular Diagnostics.
             </p>
             <p className="list-item list-inside p-2">
+              Colaboré con los equipos comerciales y operativos para productos
+              de diagnóstico in vitro (IVD), en lo que respecta a la
+              trazabilidad, la logística de la cadena de frío, el almacenamiento
+              con temperatura controlada y las especificaciones de etiquetado
+              local.
+            </p>
+            <p className="list-item list-inside p-2">
               Coordiné auditorías para la evaluación de los sistemas de calidad
               de los proveedores, incluyendo la planificación, la definición del
               alcance y la documentación requerida.
-            </p>
-            <p className="list-item list-inside p-2">
-              Gestioné y elaboré informes periódicos de rendimiento de
-              proveedores con métricas para su revisión, a fin de iniciar las
-              reevaluaciones o planes de acción necesarios de manera oportuna.
             </p>
             <p className="list-item list-inside p-2">
               Asistí en la recopilación y el análisis de datos de registros de
@@ -174,16 +175,23 @@ function Home() {
               SmartSolve eQMS.
             </p>
             <p className="list-item list-inside p-2">
-              Realizé "gap assessments" para revisar el cumplimiento de todos
-              los elementos de las normas y estándares internacionales que
-              afectan a las buenas prácticas de distribución (BDP).
-            </p>
-            <p className="list-item list-inside p-2">
               Colaboré con equipos multifuncionales (Global Services Support,
               Service Compliance, and Commercial) para garantizar el
               cumplimiento de los requisitos de servicio, la gestión de
               repuestos y los requisitos de calidad de los servicios de
               terceros.
+            </p>
+            <p className="list-item list-inside p-2">
+              Realizé "gap assessments" para revisar el cumplimiento de todos
+              los elementos de las normas y estándares internacionales que
+              afectan a las buenas prácticas de distribución (BDP).
+            </p>
+            <p className="list-item list-inside p-2">
+              Gestioné y elaboré informes periódicos sobre el rendimiento de los
+              proveedores con métricas para su revisión, con el fin de iniciar
+              las reevaluaciones o planes de acción necesarios de manera
+              oportuna, utilizando los metadatos de la base de datos de
+              proveedores (reportes de SBM, Excel y Power BI).
             </p>
             <p className="list-item list-inside p-2">
               Facilité la comunicación efectiva con los proveedores para
@@ -209,28 +217,25 @@ function Home() {
 
           <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
             <p className="list-item list-inside p-2">
-              Ejercí como usuario experto para las funciones globales de HCQ,
-              permitiendo una gestión diligente durante el ciclo de vida de la
-              documentación en el sistema electrónico de gestión de calidad.
+              Ejercí como usuario experto para las funciones globales de
+              Healthcare, permitiendo una gestión diligente durante el ciclo de
+              vida de la documentación en el sistema electrónico de gestión de
+              calidad.
             </p>
             <p className="list-item list-inside p-2">
-              Implementé programas para mantener los estándares de calidad de
-              los productos existentes.
+              Desempeñé el rol de Aprobador de Calidad de los procedimientos
+              globales del SGC, para garantizar que la documentación fuera
+              completa y coherente, y que los usuarios y las aprobaciones
+              cumplieran con los estándares, las reglas específicas y los
+              principios ALCOA+ (incluidas las propiedades y los metadatos de
+              calidad en el eQMS).
             </p>
             <p className="list-item list-inside p-2">
-              Promoví la participación de los empleados en las iniciativas de
-              mejora de la calidad, mediante el desarrollo de políticas,
-              procedimientos y métodos.
-            </p>
-            <p className="list-item list-inside p-2">
-              Gestioné la creación y mantenimiento de registros de datos para
-              permitir a las operaciones, la evaluación y valoración oportuna de
-              documentos globales.
-            </p>
-            <p className="list-item list-inside p-2">
-              Garantizé que el sistema de documentación sea eficaz y conforme,
-              con usuarios y aprobaciones que se adhieren a estándares y reglas
-              específicas.
+              Gestioné la creación de registros de datos mediante la iniciación
+              de un flujo de trabajo, para permitir a las subsidiarias la
+              evaluación y valoración oportuna de los procedimientos y
+              estándares globales recientemente aprobados (KPI de documentación
+              de calidad).
             </p>
             <p className="list-item list-inside p-2">
               Brindé apoyo a los propietarios de procesos globales en temas
@@ -239,18 +244,23 @@ function Home() {
               corporativos en equipos multifuncionales.
             </p>
             <p className="list-item list-inside p-2">
-              Aseguré que los riesgos identificados se escalen de manera
-              adecuada y oportuna para su solución inmediata.
-            </p>
-            <p className="list-item list-inside p-2">
               Identifiqué activamente las necesidades de los usuarios, para
               comprender sus requisitos y traducirlos en acciones y flujos de
               trabajo específicos.
             </p>
             <p className="list-item list-inside p-2">
-              Proporcioné soporte a los usuarios y elementos de seguimiento para
-              un proceso eficaz de gestión y control de la documentación de
-              calidad.
+              Diseñé y construí un nuevo panel de control dentro del eQMS (Mango
+              CARA) para mejorar la clasificación de los documentos globales con
+              respecto a su fecha de revisión periódica (a tiempo, en curso,
+              vencida), desde URS hasta la versión de producción de acuerdo con
+              los estándares de desarrollo de software (GxP).
+            </p>
+            <p className="list-item list-inside p-2">
+              Generé informes y métricas para evaluar el cumplimiento y la
+              eficiencia de los procesos del eQMS, garantizando la gobernanza,
+              integridad y calidad de datos adecuadas como estrategia general a
+              largo plazo (informes de metadatos, creación de una base de datos
+              de propietarios de procesos).
             </p>
             <p className="list-item list-inside p-2">
               Brindé capacitación y garantizé que los usuarios estén entrenados
@@ -258,9 +268,13 @@ function Home() {
               puedan navegar eficazmente por el eQMS.
             </p>
             <p className="list-item list-inside p-2">
-              Generé informes y métricas que ayudan a realizar un seguimiento
-              del cumplimiento y la eficiencia de los procesos y contribuyan al
-              ecosistema digital general con soluciones a largo plazo.
+              Aseguré que los riesgos identificados se escalen de manera
+              adecuada y oportuna para su solución inmediata.
+            </p>
+            <p className="list-item list-inside p-2">
+              Promoví la participación de los empleados en las iniciativas de
+              mejora de la calidad, mediante el desarrollo de políticas,
+              procedimientos y métodos.
             </p>
             <p className="list-item list-inside p-2">
               Obtuve competencias y experiencia práctica en terminología
@@ -327,26 +341,49 @@ function Home() {
 
           <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
             <p className="list-item list-inside p-2">
-              Reporté directamente a la oficina corporativa ubicada en diferente
-              geografía y zona horaria, en un entorno multicultural.
+              Establecí relaciones sólidas con equipos diversos en diferentes
+              ubicaciones geográficas y zonas horarias, asegurando la alineación
+              en iniciativas corporativas clave relacionadas con los principios
+              de gobernanza de datos, la gestión del ciclo de vida de los datos
+              y las buenas prácticas.
             </p>
             <p className="list-item list-inside p-2">
-              Lideré de un equipo remoto conformado por 8 personas con más de 70
-              procesos en el catálogo, para los mercados de EMEA y LATAM,
-              navegando una mayor complejidad debido al uso de los idiomas
-              italiano, francés y español.
+              Lideré una visión basada en los principios de la empresa y creamos
+              un entorno de colaboración para las operaciones diarias de un
+              equipo remoto (8-10 asociados) y más de 70 procesos de gestión de
+              documentación y gestión de datos en el ámbito de los mercados EMEA
+              y LATAM.
             </p>
             <p className="list-item list-inside p-2">
-              Determiné indicadores de desempeño (KPI's), objetivos, estrategias
-              y metas de alto nivel para el negocio operativo.
+              Determiné indicadores (KPI's) de capacidad y productividad tales
+              como los requisitos de FTE (equivalente a tiempo completo) y el
+              tiempo de resolución (TTR), para pronosticar las necesidades de
+              demanda, la disponibilidad de personal y establecer los objetivos
+              del equipo y las estrategias para el negocio operativo.
+            </p>
+            <p className="list-item list-inside p-2">
+              Brindé un enfoque proactivo, estructurado y orientado a soluciones
+              para respaldar la implementación exitosa de nuevas directrices de
+              procesos, la adopción de herramientas para el equipo y flujos de
+              trabajo automatizados para aumentar la productividad del equipo de
+              datos y minimizar los errores.
+            </p>
+            <p className="list-item list-inside p-2">
+              Gestioné actividades relacionadas con la incorporación de nuevos
+              procesos, la migración de datos y los proyectos de transformación
+              de datos maestros, de acuerdo con el catálogo de servicios en
+              cuanto a alcance, riesgos y prioridades.
+            </p>
+            <p className="list-item list-inside p-2">
+              Recluté, formé y supervisé al personal en áreas como el
+              conocimiento del producto, el servicio al cliente y las mejores
+              prácticas de gestión de datos, para garantizar que contaran con el
+              equipo, las habilidades y los conocimientos necesarios para
+              desempeñar sus funciones de manera eficaz.
             </p>
             <p className="list-item list-inside p-2">
               Presenté informes de datos quincenales a la alta dirección para la
               revisión de métricas de desempeño del equipo y otros puntos clave.
-            </p>
-            <p className="list-item list-inside p-2">
-              Gestioné proyectos relacionados con la recepción o migración de
-              procesos, basados en el catálogo de servicios en alcance.
             </p>
             <p className="list-item list-inside p-2">
               Preparé las evaluaciones de desempeño y las revisiones de talento
@@ -358,17 +395,9 @@ function Home() {
               demanda y asegurar la disponibilidad de personal.
             </p>
             <p className="list-item list-inside p-2">
-              Recluté y supervisé nuevos miembros del equipo en áreas de
-              conocimiento de producto y servicio al cliente.
-            </p>
-            <p className="list-item list-inside p-2">
               Enseñé y ayudé a desarrollar el potencial de miembros del equipo,
               delegando asignaciones y proyectos acorde con sus habilidades e
               intereses.
-            </p>
-            <p className="list-item list-inside p-2">
-              Anticipé la implementación exitosa de herramientas, información y
-              recursos para el equipo.
             </p>
             <p className="list-item list-inside p-2">
               Desarrollé oportunidades efectivas de redes profesionales
@@ -394,9 +423,26 @@ function Home() {
 
           <div className="text-xl text-justify p-1 m-auto tablet:text-2xl tablet:mx-20">
             <p className="list-item list-inside p-2">
-              Promovido de Sr. Associate al ofrecer un alto rendimiento
-              procesando un gran volumen de transacciones, y el fomento de la
-              colaboración en el equipo.
+              Promoción en reconocimiento al desempeño consistentemente sólido,
+              liderazgo colaborativo y capacidad para gestionar con éxito
+              grandes volúmenes de trabajo, equilibrar múltiples prioridades y
+              ofrecer resultados excepcionales en un entorno dinámico.
+            </p>
+            <p className="list-item list-inside p-2">
+              Actué como experto en la materia y punto de contacto entre otras
+              partes interesadas operativas internas y el equipo de Data
+              Management.
+            </p>
+            <p className="list-item list-inside p-2">
+              Supervisé la revisión de defectos y el análisis de datos para
+              identificar inconsistencias o problemas de calidad de los datos, y
+              se movilizaron recursos para abordar estos desafíos de acuerdo con
+              el modelado de datos, los procesos ETL/ELT, los principios de
+              gobernanza de datos, las políticas y los procedimientos.
+            </p>
+            <p className="list-item list-inside p-2">
+              Coordiné las propuestas de mejora continua de los procesos bajo
+              sólidas políticas y procedimientos de gestión de datos.
             </p>
             <p className="list-item list-inside p-2">
               Garanticé la óptima utilización del personal a diario al asignar
@@ -404,13 +450,11 @@ function Home() {
               experiencia.
             </p>
             <p className="list-item list-inside p-2">
-              Realicé el monitoreo diario asegurando el cumplimiento de las
-              métricas diarias (SLA y otros KPI) a través de varias herramientas
-              de visualización.
-            </p>
-            <p className="list-item list-inside p-2">
-              Coordiné las propuestas de mejora continua de los procesos bajo
-              sólidas políticas y procedimientos de gestión de datos.
+              Realicé el seguimiento del cumplimiento de las métricas de gestión
+              de servicios de TI (incidentes, incumplimiento de los objetivos de
+              SLA) y otros KPI mediante varias herramientas de visualización de
+              paneles (Amazon Quicksight, herramienta de gestión de
+              incidencias).
             </p>
             <p className="list-item list-inside p-2">
               Satisfice las necesidades de acceso a la información y generación
@@ -418,19 +462,9 @@ function Home() {
               la aplicación.
             </p>
             <p className="list-item list-inside p-2">
-              Supervisé la revisión de defectos, casos difíciles y escalaciones
-              acorde con la escala de impacto de severidad para cumplir con los
-              requisitos del cliente
-            </p>
-            <p className="list-item list-inside p-2">
               Apliqué técnicas de análisis de causa raíz (RCA) para investigar
               discrepancias en los procesos, descubrir debilidades e implementar
               acciones correctivas.
-            </p>
-            <p className="list-item list-inside p-2">
-              Ejercí el rol de punto de contacto interno y externo para las
-              acciones del equipo relacionadas con los procedimientos de
-              operación estándar.
             </p>
             <p className="list-item list-inside p-2">
               Establecí los medios efectivos para la actualización de los
